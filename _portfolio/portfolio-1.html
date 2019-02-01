@@ -7,13 +7,13 @@ collection: portfolio
 <html>
 	<head>
 		<title>RL with dropout uncertainty demo | Yarin Gal - Blog | Cambridge Machine Learning Group</title>
-		<script src="../demo/js/jquery.min.js"></script>
+		<script src="/demo/js/jquery.min.js"></script>
 		<!-- demos -->
-		<script src="../demo/convnetjs/convnet_drop.js"></script>
-		<script src="../demo/convnetjs/util.js"></script>
-		<script src="../demo/convnetjs/vis.js"></script>
-		<script src="../demo/convnetjs/npgmain.js"></script>
-		<script src="../demo/convnetjs/regression_uncertainty_drop.js"></script>
+		<script src="/demo/convnetjs/convnet_drop.js"></script>
+		<script src="/demo/convnetjs/util.js"></script>
+		<script src="/demo/convnetjs/vis.js"></script>
+		<script src="/demo/convnetjs/npgmain.js"></script>
+		<script src="/demo/convnetjs/regression_uncertainty_drop.js"></script>
 		<style type="text/css">
 			canvas { border: 1px solid black; }
 		</style>
@@ -29,7 +29,7 @@ collection: portfolio
 		</p>
 		<p>
 	    <div style="margin-left: auto; margin-right: auto; width: 700px">
-	   			<canvas id="NPGcanvas" width="800" height="500" style="background-image: url('../demo/images/freeze_bg_01.png'); background-size: cover; opacity:0.5">Browser not supported for Canvas. Get a real browser.</canvas>
+	   			<canvas id="NPGcanvas" width="800" height="500" style="background-image: url('/demo/images/freeze_bg_01.png'); background-size: cover; opacity:0.5">Browser not supported for Canvas. Get a real browser.</canvas>
 	   	</div>
 		<ul>
 			<div style="text-align:center">
@@ -59,7 +59,7 @@ collection: portfolio
 	    };
 	    hide_reg = function() {
 	    	$(NPGcanvas).css('opacity', 0.5); 
-	    	$(NPGcanvas).css('background-image', 'url("../demo/images/freeze_bg_01.png")'); 
+	    	$(NPGcanvas).css('background-image', 'url("/demo/images/freeze_bg_01.png")'); 
 	    	window.clearInterval(NPG_interval);
 		    ctx_reg.clearRect(0,0,WIDTH,HEIGHT);
 	    };
