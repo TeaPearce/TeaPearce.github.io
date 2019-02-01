@@ -1,0 +1,110 @@
+---
+title: "Bayes Ens Interactive Demo bayes_ens_github"
+excerpt: "Demo accompanying bayes <br/> <img src='/demo/images/freeze_bg_01.png'>"
+collection: portfolio
+---
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bayesian ensembling demo</title>
+		<script src="/demo/js/jquery.min.js"></script>
+		<script src="/demo/convnetjs/convnet.js"></script>
+		<script src="/demo/convnetjs/util.js"></script>
+		<script src="/demo/convnetjs/vis.js"></script>
+		<script src="/demo/convnetjs/npgmain.js"></script>
+		<script src="/demo/convnetjs/regression_uncertainty_ens.js"></script>
+		<style type="text/css">
+			canvas { border: 1px solid black; }  
+		</style>
+	</head>
+	<body style='font-family: Arial, "Times New Roman", Times, serif;'>
+		<h2>Uncetainty in Neural Networks: Bayesian Ensembling - JS Demo</h2>
+		Interative demo accompanying the method to capture uncertainty in NNs presented in <a href="https://arxiv.org/abs/1810.05546">our paper</a>. </br>
+		Edit hyperparameters at bottom. Click the plot to add data points. Black lines are individual NNs estimates, colour shows predictive standard deviations.
+
+
+		<!-- <b>bold text here</b>. other text here. -->
+		</p>
+		<p>
+		<!-- this sets up screen -->
+	    <div style="margin-left: auto; margin-right: auto; width: 700px">
+	   			<canvas id="NPGcanvas" width="800" height="500" style="background-image: url('/demo/images/freeze_bg_01.png'); background-size: cover; opacity:0.5">Browser not supported for Canvas. Get a real browser.</canvas>
+	   	</div>
+<!-- 	    <div style="margin-left: auto; margin-right: auto; width: 700px">
+	   			<canvas id="NPGcanvas2" width="700" height="500" style="background-image: url('../images/homoscedastic_dropout_reg_DM_relu.png'); background-size: cover; opacity:0.6">Browser not supported for Canvas. Get a real browser.</canvas>
+	   	</div> -->
+		<ul>
+			<div style="text-align:center">
+			<button type="button" onclick="javascript:show_reg();">Start</button>
+			<button type="button" onclick="javascript:show_reg();">Reset All</button>
+			<button type="button" onclick="regen_data()">Reset Data</button>
+			<button type="button" onclick="reload_reg()">Reset NNs</button>
+			<button type="button" onclick="javascript:hide_reg();">Stop</button>
+		    </div>
+			</p>
+			<h3>Hyperparameters</h3> 
+			Activation function:
+			<form action="">
+			  <input type="radio" name="act_fn" value="relu"> ReLU
+			  <input type="radio" name="act_fn" value="tanh" checked="checked"> TanH <br>
+			  <!-- <a href="javascript: myinit()">Refresh</A> -->
+			</form> 
+			</p>
+			Prior variance: <i>How noisy do you assume the function is?</i>
+			<form action="">
+			  <input type="radio" name="prior_var" value=1> 1.0
+			  <input type="radio" name="prior_var" value=10 checked="checked"> 10.0
+			  <input type="radio" name="prior_var" value=100> 100.0 <br>
+			</form> 
+			</p>
+			Data noise variance: <i> How closely do you need to fit the data? </i>
+			<form action="">
+			  <input type="radio" name="noise_var" value=0.001> 0.001
+			  <input type="radio" name="noise_var" value=0.01 checked="checked"> 0.01
+			  <input type="radio" name="noise_var" value=0.1> 0.1 <br>
+			</form>
+			</p>
+			Loss function to use for ensemble:  <br>
+		<i>Note how the regularised loss function reduces diversity in the ensemble. The unconstrained case overfits the data for the low prior / high data noise variance case.</i>
+			<form action="">
+			  <input type="radio" name="reg_type" value="uncons"> Unconstrained
+			  <input type="radio" name="reg_type" value="reg"> Regularised
+			  <input type="radio" name="reg_type" value="anc" checked="checked"> Bayesian (Anchored) <br>
+			</form>
+			</p>
+			<i>(Click 'Reset NNs' for new hyperparams to take affect)</i>
+
+
+			<!-- these are buttons here -->
+			<!-- method it runs | type of button | text -->
+<!-- 			<li><a href="javascript:show_reg();" class="button special">Start</a></li>
+			<li><a href="javascript:reload_reg()" class="button alt">Restart NNs</a></li>
+			<li><a href="javascript:regen_data()" class="button alt">Reset data</a></li>
+			<li><a href="javascript:hide_reg();" class="button">Stop</a></li>
+			<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+			<button type="button" onclick="javascript:show_reg();">START</button> -->
+			</p> </p> </p>
+			Adapted from Yarin Gal <a href="https://github.com/yaringal/DropoutUncertaintyDemos">https://github.com/yaringal/DropoutUncertaintyDemos</a>, originally by Andrej Karpathy <a href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/regression.html">https://cs.stanford.edu/people/karpathy/convnetjs/demo/regression.html</a>.
+
+		</ul>
+		</p>
+		<!-- below here we describe some of the javascript methods -->
+	<script>
+		// remove the bg images
+	    show_reg = function() {
+	    	$(NPGcanvas).css('opacity', 1); 
+	    	$(NPGcanvas).css('background-image', ''); 
+	    	// start the thing running?
+	    	NPGinit(10); // frames per second, sets up js stuff then calls regen_data, reload_reg
+	    };
+	    hide_reg = function() {
+	    	$(NPGcanvas).css('opacity', 0.5); 
+	    	$(NPGcanvas).css('background-image', 'url("/demo/images/freeze_bg_01.png")'); 
+	    	window.clearInterval(NPG_interval);
+		    ctx_reg.clearRect(0,0,WIDTH,HEIGHT);
+	    };
+	</script>
+	</body>
+</html>
