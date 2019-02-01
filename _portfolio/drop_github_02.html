@@ -1,0 +1,69 @@
+---
+title: "Dropout Interactive Demo 2 drop_github_02"
+excerpt: "Demo accompanying 1 <br/> <img src='/demo/images/freeze_bg_01.png'>"
+collection: portfolio
+---
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>RL with dropout uncertainty demo | Yarin Gal - Blog | Cambridge Machine Learning Group</title>
+		<script src="/demo/js/jquery.min.js"></script>
+		<!-- demos -->
+		<script src="/demo/convnetjs/convnet_drop.js"></script>
+		<script src="/demo/convnetjs/util.js"></script>
+		<script src="/demo/convnetjs/vis.js"></script>
+		<script src="/demo/convnetjs/npgmain.js"></script>
+		<script src="/demo/convnetjs/regression_uncertainty_drop.js"></script>
+		<style type="text/css">
+			canvas { border: 1px solid black; }
+		</style>
+	</head>
+	<body style='font-family: Arial, "Times New Roman", Times, serif;'>
+		<h1>Regression with dropout uncertainty demo</h1>
+		<p>
+		Demo of <a href="https://arxiv.org/abs/1506.02142">MC dropout</a> in action over the same data as used in the Bayesian ensembling demo. Implementation is as originally found in
+		<a href="http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html">this excellent blog</a> about why uncertainty is important, with 
+		<a href="https://github.com/yaringal/DropoutUncertaintyDemos">original code here</a>. We've edited colouring and data generation to match that used in the ensembling demo, but the core implementation of dropout and uncertainty estimates is unchanged. We added interactive ability to swap activation functions.
+		<br>
+		The purpose of this was to allow some intuitive comparison between the methods. Note that dropout struggles to capture interpolated uncertainty in between data points.
+		</p>
+		<p>
+	    <div style="margin-left: auto; margin-right: auto; width: 700px">
+	   			<canvas id="NPGcanvas" width="800" height="500" style="background-image: url('/demo/images/freeze_bg_01.png'); background-size: cover; opacity:0.5">Browser not supported for Canvas. Get a real browser.</canvas>
+	   	</div>
+		<ul>
+			<div style="text-align:center">
+			<button type="button" onclick="javascript:show_reg();">Start</button>
+			<button type="button" onclick="javascript:show_reg();">Reset All</button>
+			<button type="button" onclick="regen_data()">Reset Data</button>
+			<button type="button" onclick="reload_reg()">Reset NNs</button>
+			<button type="button" onclick="javascript:hide_reg();">Stop</button>
+		    </div>
+		</ul>
+		</p>
+
+		<h3>Hyperparameters</h3> 
+			Activation function:
+			<form action="">
+			  <input type="radio" name="act_fn" value="relu"> ReLU
+			  <input type="radio" name="act_fn" value="tanh" checked="checked"> TanH <br>
+			  <!-- <a href="javascript: myinit()">Refresh</A> -->
+			</form> 
+			</p>
+			<i>(Click 'Reset NNs' for new hyperparams to take affect)</i>
+	<script>
+	    show_reg = function() {
+	    	$(NPGcanvas).css('opacity', 1); 
+	    	$(NPGcanvas).css('background-image', ''); 
+	    	NPGinit(10);
+	    };
+	    hide_reg = function() {
+	    	$(NPGcanvas).css('opacity', 0.5); 
+	    	$(NPGcanvas).css('background-image', 'url("/demo/images/freeze_bg_01.png")'); 
+	    	window.clearInterval(NPG_interval);
+		    ctx_reg.clearRect(0,0,WIDTH,HEIGHT);
+	    };
+	</script>
+	</body>
+</html>
