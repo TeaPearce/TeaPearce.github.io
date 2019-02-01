@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Intro"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-Hello World.
+“One may even say, strictly speaking, that almost all our knowledge is only probable"
+
