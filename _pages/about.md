@@ -13,21 +13,21 @@ redirect_from:
 ### About ###
 I'm a 4th year PhD at the University of Cambridge. Broadly, my research ...
 
-I've interned at PROWLER.io and FDL (NASA research accelerator).
+I've interned at PROWLER.io [PROWLER.io](https://www.prowler.io/) and [FDL](https://frontierdevelopmentlab.org/) (NASA research accelerator).
 
 ### Publications ###
 
-T Pearce, M Zaki, A Brintrup, A Neely
-Uncertainty in Neural Networks: Bayesian Ensembling 
-AISTATS	2020
+__T Pearce__, M Zaki, A Brintrup, A Neely  
+Uncertainty in Neural Networks: Approximately Bayesian Ensembling - [link](https://arxiv.org/abs/1810.05546)  
+__AISTATS	2020__
 
-T Pearce, M Zaki, A Brintrup, A Neely
-High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach
-ICML 2018
+__T Pearce__, M Zaki, A Brintrup, A Neely  
+High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach - [link](http://proceedings.mlr.press/v80/pearce18a.html)  
+__ICML 2018__
 
-T Pearce, R Tsuchida, M Zaki, A Brintrup, A Neely
-Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions
-UAI 2019
+__T Pearce__, R Tsuchida, M Zaki, A Brintrup, A Neely  
+Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions - [link](http://auai.org/uai2019/proceedings/papers/25.pdf)  
+__UAI 2019__
 
 ### Teaching ###
 tbc
