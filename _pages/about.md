@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
+__About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
-__Research Philosophy.__ I adopt a probabilistic view of neural networks to help better understand and improve today's algorithms. I believe that the setting considered in RL -- sequential decisions with a mix of offline and online learning -- is the right one to be studying to make long-term progress in AI.
+__Research Philosophy.__ I adopt a probabilistic view of neural networks to help understand and improve today's algorithms. I believe that the setting considered in RL -- sequential decisions with a mix of offline and online learning -- is the right one to be studying to make long-term progress in AI.
 
 <!-- In general my research follows two philosophies; 1) Analysing and designing neural networks from a probabilistic view o -->
 
@@ -21,7 +21,7 @@ __Research Philosophy.__ I adopt a probabilistic view of neural networks to help
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
-__Get in Touch.__ If you'd like to get in touch to chat research, collaborating together, or other opportunities, you can reach me via email at $x$@microsoft.com, where $x=\text{t-timpearce}$.
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where $x=\text{t-timpearce}$.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
@@ -42,7 +42,7 @@ __ArXiv 2022__
 
 __T Pearce__, J Zhu
 Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
-__NeurIPS Workshop, Offline Reinforcement Learning 2021 / IEEE Conference on Games 2022__  
+__NeurIPS Workshop, Offline RL 2021 / IEEE Conference on Games 2022__  
 [Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0)  
 
 __T Pearce__, A Brintrup, J Zhu  
@@ -63,7 +63,7 @@ __ICML workshop, Uncertainty & Robustness in Deep Learning 2020__
 __T Pearce__, M Zaki, A Brintrup, A Neely  
 Uncertainty in Neural Networks: Approximately Bayesian Ensembling  
 __AISTATS 2021__  
-[Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc)  
+[Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc) | [Interactive Demo](https://teapearce.github.io/portfolio/)  
 
 __T Pearce__, R Tsuchida, M Zaki, A Brintrup, A Neely  
 Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions  
