@@ -80,11 +80,13 @@ __ICML 2018__
 
 I sometimes make short videos summarising research papers I find interesting.
 
-* [Overview of a robotic system that plays table tennis](https://youtu.be/ktkbxWcYiF8)  
+* [A robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8)  
 * [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
 
 
 ## Teaching ##
+I did the below teaching on courses at the University of Cambridge. 
+
 Lecturer  
 * 2019-21 	- Intro to Deep Learning, 		      	MPhil engineering Data and Modelling
 *	2019-20 	- Intro to Deep Learning, 		      	4th yr engineering Industrial Operations Mgmt
@@ -100,10 +102,9 @@ Lab Demonstrator
 *	2017-18 	- Intro to machine & assembly code, 	1st yr engineering
 *	2018-19 	- Intro to robotics,				1st yr engineering
 
-## Supervising ##
-
-Master’s Thesis
-*	2018-19, David Ratiney, Uncertainty in Neural Networks: Application to supply chain forecasting
+<!-- ## Supervising ## -->
+<!-- Master’s Thesis -->
+<!-- *	2018-19, David Ratiney, Uncertainty in Neural Networks: Application to supply chain forecasting -->
 
 
 
