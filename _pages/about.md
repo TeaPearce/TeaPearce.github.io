@@ -9,12 +9,11 @@ redirect_from:
 ---
 
 ## About ##
-I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and behavioural cloning.
+I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and imitation learning.
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
 I adopt a probabilistic view of neural networks to help better understand and improve today's algorithms. I believe that the setting used in RL -- sequential decisions with a mixture of offline and online learning -- is the right one to be studying for the long-term progress of AI.
-
 
 <!-- In general my research follows two philosophies; 1) Analysing and designing neural networks from a probabilistic view o -->
 
@@ -40,13 +39,13 @@ __T Pearce__, J Zhu
 [Censored Quantile Regression Neural Networks](https://arxiv.org/abs/2205.13496)  
 __ArXiv 2022__  
 
-__T Pearce__, A Brintrup, J Zhu  
-[Understanding Softmax Confidence and Uncertainty](https://arxiv.org/abs/1810.05546)  
-__ArXiv 2021__  
-
 __T Pearce__, J Zhu
 [Counter-Strike Deathmatch with Large-Scale Behavioural Cloning](https://arxiv.org/abs/2104.04258)  
 __NeurIPS Workshop Offline Reinforcement Learning 2021 / IEEE Conference on Games 2022__
+
+__T Pearce__, A Brintrup, J Zhu  
+[Understanding Softmax Confidence and Uncertainty](https://arxiv.org/abs/1810.05546)  
+__ArXiv 2021__  
 
 R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher
 [Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks](https://arxiv.org/abs/2002.08517)  
