@@ -21,7 +21,7 @@ __About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
-__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential and interactive learning, is the correct setting to be studiying to make long-term progress in AI.
+__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI.
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{t-timpearce}$.
 
