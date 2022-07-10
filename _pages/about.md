@@ -21,7 +21,7 @@ __Research Philosophy.__ I adopt a probabilistic view of neural networks to help
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where $x=\text{t-timpearce}$.
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{t-timpearce}$.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
@@ -35,12 +35,12 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an comprehensive list.  
 
-__T Pearce__, J Zhu  
+__T Pearce__, JH Jeong, Y Jia, J Zhu  
 Censored Quantile Regression Neural Networks  
 __ArXiv 2022__  
 [Paper](https://arxiv.org/abs/2205.13496)  
 
-__T Pearce__, J Zhu
+__T Pearce__, J Zhu  
 Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
 __NeurIPS Workshop, Offline RL 2021 / IEEE Conference on Games 2022__  
 [Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0)  
@@ -50,7 +50,7 @@ Understanding Softmax Confidence and Uncertainty
 __ArXiv 2021__  
 [Paper](https://arxiv.org/abs/1810.05546) 
 
-R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher
+R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher  
 Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks  
 __AAAI 2021__  
 [Paper](https://arxiv.org/abs/2002.08517)  
@@ -78,7 +78,7 @@ __ICML 2018__
 
 ## Videos ##
 
-I make short videos summarising research papers I find interesting.
+I sometimes make short videos summarising research papers I find interesting.
 
 * [Overview of a robotic system that plays table tennis](https://youtu.be/ktkbxWcYiF8)  
 * [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
