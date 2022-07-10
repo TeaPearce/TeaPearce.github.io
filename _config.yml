@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tim Pearce Homepage"
+title                    : "Tim Pearce's Homepage"
 title_separator          : "-"
 name                     : &name "Tim Pearce"
 description              : &description "Researcher @Microsoft Research || uncertainty in deep learning / reinforcement learning"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tim Pearce"
   avatar           : "me_turing_large_lowres.png"
-  bio              : "Researcher @Microsoft Research || uncertainty in deep learning / reinforcement learning"
+  bio              : "Researcher @Microsoft Research Cambridge || Uncertainty in deep learning / Reinforcement Learning"
   # location         : "Location"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=09k1kdQAAAAJ&hl=en"
