@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and imitation learning.
+__About.__ I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
@@ -19,7 +19,9 @@ __Research Philosophy.__ I adopt a probabilistic view of neural networks to help
 
 <!-- and am particularly drawn to the probabilistic view of learning with neural networks, and building RL agents. -->
 
-__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance.
+__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
+
+__Get in Touch.__ If you'd like to get in touch to chat research, collaborating together, or other opportunities, you can reach me via email at $x$@microsoft.com, where $x=\text{t-timpearce}$.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
