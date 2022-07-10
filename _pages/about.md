@@ -9,17 +9,20 @@ redirect_from:
 ---
 
 ## About ##
-I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition.
+I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and behavioural cloning.
 
-In general I adopt a probabilistic view of neural networks to help better understand and improve today's algorithms. I also believe that the setting studied in RL -- sequential decisions and online learning -- is right scenario to be studying for the long-term progress of AI.
+<!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
+
+I adopt a probabilistic view of neural networks to help better understand and improve today's algorithms. I believe that the setting used in RL -- sequential decisions with a mixture of offline and online learning -- is the right one to be studying for the long-term progress of AI.
+
 
 <!-- In general my research follows two philosophies; 1) Analysing and designing neural networks from a probabilistic view o -->
 
 <!-- and am particularly drawn to the probabilistic view of learning with neural networks, and building RL agents. -->
 
-I completed my PhD at the University of Cambridge, spending time at the [Alan Turing Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute), and a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/).
+I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/).
 
-In my previous life I trained as a Chartered Accountant with Ernst & Young (EY). I built forecasting models and did data analytics for clients on high-pressured projects across London finance.
+In my previous life I trained as a Chartered Accountant with Ernst & Young (EY). I built forecasting and valuation models for clients across London finance.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
@@ -54,7 +57,7 @@ __T Pearce__, Andrew Y. K. Foong, Alexandra Brintrup
 __ICML workshop, Uncertainty & Robustness in Deep Learning 2020__  
 
 __T Pearce__, M Zaki, A Brintrup, A Neely  
-[Uncertainty in Neural Networks: Approximately Bayesian Ensembling](https://arxiv.org/abs/1810.05546) 
+[Uncertainty in Neural Networks: Approximately Bayesian Ensembling](https://arxiv.org/abs/1810.05546)  
 __AISTATS 2021__  
 
 __T Pearce__, R Tsuchida, M Zaki, A Brintrup, A Neely  
