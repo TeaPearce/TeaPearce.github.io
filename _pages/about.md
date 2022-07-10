@@ -13,7 +13,7 @@ __About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
-__Research Philosophy.__ I adopt a probabilistic view of neural networks to help understand and improve today's algorithms. I believe that the setting considered in RL -- sequential decisions with a mix of offline and online learning -- is the right one to be studying to make long-term progress in AI.
+__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential and interactive learning, is the correct setting to be studiying to make long-term progress in AI.
 
 <!-- In general my research follows two philosophies; 1) Analysing and designing neural networks from a probabilistic view o -->
 
@@ -30,6 +30,8 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 <!-- I'm a 4th year engineering PhD at the University of Cambridge, having spent time at the [Alan Turing Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute).  -->
 
 <!-- I completed an internship in reinforcement learning at [PROWLER.io/Secondmind](https://www.secondmind.ai/) and in causal ML at [FDL](https://frontierdevelopmentlab.org/) (NASA research accelerator). -->
+
+
 
 ## Selected Publications ## 
 
