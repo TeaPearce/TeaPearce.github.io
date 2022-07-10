@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and imitation learning.
+__About.__ I'm a researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with deep expertise in uncertainty estimation in neural networks, and imitation learning.
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
@@ -19,7 +19,7 @@ __Research Philosophy.__ I adopt a probabilistic view of neural networks to help
 
 <!-- and am particularly drawn to the probabilistic view of learning with neural networks, and building RL agents. -->
 
-__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I trained as a Chartered Accountant with Ernst & Young (EY). I built forecasting and valuation models for clients across London finance.
+__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
@@ -34,48 +34,52 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an comprehensive list.  
 
 __T Pearce__, J Zhu  
-[Censored Quantile Regression Neural Networks](https://arxiv.org/abs/2205.13496)  
+Censored Quantile Regression Neural Networks  
 __ArXiv 2022__  
+[Paper](https://arxiv.org/abs/2205.13496)  
 
 __T Pearce__, J Zhu
-[Counter-Strike Deathmatch with Large-Scale Behavioural Cloning](https://arxiv.org/abs/2104.04258)  
-__NeurIPS Workshop, Offline Reinforcement Learning 2021 / IEEE Conference on Games 2022__
-[Video Intro](https://youtu.be/rnz3lmfSHv0)  
+Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
+__NeurIPS Workshop, Offline Reinforcement Learning 2021 / IEEE Conference on Games 2022__  
+[Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0)  
 
 __T Pearce__, A Brintrup, J Zhu  
-[Understanding Softmax Confidence and Uncertainty](https://arxiv.org/abs/1810.05546)  
+Understanding Softmax Confidence and Uncertainty   
 __ArXiv 2021__  
+[Paper](https://arxiv.org/abs/1810.05546) 
 
 R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher
-[Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks](https://arxiv.org/abs/2002.08517)  
+Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks  
 __AAAI 2021__  
+[Paper](https://arxiv.org/abs/2002.08517)  
 
 __T Pearce__, Andrew Y. K. Foong, Alexandra Brintrup  
-[Structured Priors for Convolutional Neural Networks](https://arxiv.org/abs/2007.14235)  
+Structured Priors for Convolutional Neural Networks  
 __ICML workshop, Uncertainty & Robustness in Deep Learning 2020__  
+[Paper](https://arxiv.org/abs/2007.14235)  
 
 __T Pearce__, M Zaki, A Brintrup, A Neely  
-[Uncertainty in Neural Networks: Approximately Bayesian Ensembling](https://arxiv.org/abs/1810.05546)  
+Uncertainty in Neural Networks: Approximately Bayesian Ensembling  
 __AISTATS 2021__  
-[Conference Talk](https://youtu.be/eBKqvgecRjc)  
+[Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc)  
 
 __T Pearce__, R Tsuchida, M Zaki, A Brintrup, A Neely  
-[Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions](https://arxiv.org/abs/1905.06076)  
+Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions  
 __UAI 2019__  
-[Video Intro](https://youtu.be/D5pfY12BuyA)  
+[Paper](https://arxiv.org/abs/1905.06076) | [Video Intro](https://youtu.be/D5pfY12BuyA)  
 
 __T Pearce__, M Zaki, A Brintrup, A Neely  
-[High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](https://arxiv.org/abs/1802.07167)   
+High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach   
 __ICML 2018__  
-[Conference Talk](https://crossminds.ai/video/high-quality-prediction-intervals-for-deep-learning-a-distribution-free-ensembled-approach-6064c11294c854625bdac99b/)  
+[Paper](https://arxiv.org/abs/1802.07167) | [Video Intro](https://crossminds.ai/video/high-quality-prediction-intervals-for-deep-learning-a-distribution-free-ensembled-approach-6064c11294c854625bdac99b/)  
 
 
 ## Videos ##
 
 I make short videos summarising research papers I find interesting.
 
-* [Overview of development of a robotic system to play table tennis](https://youtu.be/ktkbxWcYiF8)  
-* [AlphaCode Explained](https://youtu.be/YjsoN5aJChA)  
+* [Overview of a robotic system that plays table tennis](https://youtu.be/ktkbxWcYiF8)  
+* [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
 
 
 ## Teaching ##

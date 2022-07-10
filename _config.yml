@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tim Pearce"
+title                    : "Tim Pearce Homepage"
 title_separator          : "-"
 name                     : &name "Tim Pearce"
 description              : &description "Researcher @Microsoft Research || uncertainty in deep learning / reinforcement learning"
