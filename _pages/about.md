@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
+__About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide-ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
 
 <!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
 
