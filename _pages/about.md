@@ -33,7 +33,7 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## Selected Publications ## 
 
-See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an comprehensive list.  
+See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for a comprehensive list.  
 
 __T Pearce__, JH Jeong, Y Jia, J Zhu  
 Censored Quantile Regression Neural Networks  
@@ -60,7 +60,7 @@ Structured Priors for Convolutional Neural Networks
 __ICML workshop, Uncertainty & Robustness in Deep Learning 2020__  
 [Paper](https://arxiv.org/abs/2007.14235)  
 
-__T Pearce__, M Zaki, A Brintrup, A Neely  
+__T Pearce__, F Leibfried, M Zaki, A Brintrup, A Neely  
 Uncertainty in Neural Networks: Approximately Bayesian Ensembling  
 __AISTATS 2021__  
 [Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc) | [Interactive Demo](https://teapearce.github.io/portfolio/)  
