@@ -86,7 +86,7 @@ __UAI 2019__
 __T Pearce__, M Zaki, A Brintrup, A Neely  
 High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach   
 __ICML 2018__  
-[Paper](https://arxiv.org/abs/1802.07167) | [Video Intro](https://crossminds.ai/video/high-quality-prediction-intervals-for-deep-learning-a-distribution-free-ensembled-approach-6064c11294c854625bdac99b/)  
+[Paper](https://arxiv.org/abs/1802.07167) | [Video Intro](https://crossminds.ai/video/high-quality-prediction-intervals-for-deep-learning-a-distribution-free-ensembled-approach-6064c11294c854625bdac99b/)  | [Code](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)
 
 
 ## Videos ##
@@ -120,6 +120,12 @@ Lab Demonstrator
 <!-- Master’s Thesis -->
 <!-- *	2018-19, David Ratiney, Uncertainty in Neural Networks: Application to supply chain forecasting -->
 
+## News ##
 
+- Jan 2023. 1x ICLR paper accepted.
+- Jan 2023. Giving a talk at Tsinghua TSAIL group on diffusion models for imitation learning.
+- Dec 2022. Will be attending NeurIPS.
+- July 2022. My paper on behavioural cloning for counter-strike won best paper at IEEE CoG.
+- May 2022. I will be joining Microsoft Research as an AI researcher.
 
 
