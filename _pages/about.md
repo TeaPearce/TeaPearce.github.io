@@ -55,7 +55,7 @@ __AAMAS 2023__
 
 __T Pearce__, J Zhu  
 Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
-__NeurIPS Workshop, Offline RL 2021 / IEEE Conference on Games 2022__  
+__IEEE Conference on Games 2022, Best Paper Award__  
 [Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0) | [Code](https://github.com/TeaPearce/Counter-Strike_Behavioural_Cloning)
 
 __T Pearce__, A Brintrup, J Zhu  
