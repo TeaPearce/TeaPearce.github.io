@@ -23,7 +23,7 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 
 __Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI.
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{t-timpearce}$.
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, follow me there, https://twitter.com/Tea_Pearce.
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
@@ -39,15 +39,24 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for a comprehensive list.  
 
+__T Pearce__, T Rashid, A Kanervisto, D Bignell, M Sun, R Georgescu, SV Macua, SZ Tan, I Momennejad, K Hofmann, S Devlin  
+Imitating Human Behaviour with Diffusion Models  
+__ICLR, 2023__  
+[Paper](https://arxiv.org/abs/2301.10677)
+
 __T Pearce__, JH Jeong, Y Jia, J Zhu  
 Censored Quantile Regression Neural Networks  
-__ArXiv 2022__  
-[Paper](https://arxiv.org/abs/2205.13496)  
+__NeurIPS 2022__  
+[Paper](https://arxiv.org/abs/2205.13496)  | [Code](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)
+
+F Lin*, S Huang*, __T Pearce__, W Chen, W-W Tu  
+TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
+__AAMAS 2023__
 
 __T Pearce__, J Zhu  
 Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
 __NeurIPS Workshop, Offline RL 2021 / IEEE Conference on Games 2022__  
-[Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0)  
+[Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0) | [Code](https://github.com/TeaPearce/Counter-Strike_Behavioural_Cloning)
 
 __T Pearce__, A Brintrup, J Zhu  
 Understanding Softmax Confidence and Uncertainty   
@@ -62,17 +71,17 @@ __AAAI 2021__
 __T Pearce__, Andrew Y. K. Foong, Alexandra Brintrup  
 Structured Priors for Convolutional Neural Networks  
 __ICML workshop, Uncertainty & Robustness in Deep Learning 2020__  
-[Paper](https://arxiv.org/abs/2007.14235)  
+[Paper](https://arxiv.org/abs/2007.14235)  | [Code](https://github.com/TeaPearce/Struct_Weight_Priors_CNNs)
 
 __T Pearce__, F Leibfried, M Zaki, A Brintrup, A Neely  
 Uncertainty in Neural Networks: Approximately Bayesian Ensembling  
 __AISTATS 2021__  
-[Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc) | [Interactive Demo](https://teapearce.github.io/portfolio/)  
+[Paper](https://arxiv.org/abs/1810.05546) | [Video Intro](https://youtu.be/eBKqvgecRjc) | [Interactive Demo](https://teapearce.github.io/portfolio/)  | [Code](https://github.com/TeaPearce/Bayesian_NN_Ensembles)
 
 __T Pearce__, R Tsuchida, M Zaki, A Brintrup, A Neely  
 Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions  
 __UAI 2019__  
-[Paper](https://arxiv.org/abs/1905.06076) | [Video Intro](https://youtu.be/D5pfY12BuyA)  
+[Paper](https://arxiv.org/abs/1905.06076) | [Video Intro](https://youtu.be/D5pfY12BuyA)  | [Code](https://github.com/TeaPearce/Expressive_Priors_in_BNNs)
 
 __T Pearce__, M Zaki, A Brintrup, A Neely  
 High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach   
@@ -89,6 +98,7 @@ I sometimes make short videos summarising research papers I find interesting.
 
 
 ## Teaching ##
+
 I did the below teaching on courses at the University of Cambridge. 
 
 Lecturer  
@@ -109,6 +119,7 @@ Lab Demonstrator
 <!-- ## Supervising ## -->
 <!-- Master’s Thesis -->
 <!-- *	2018-19, David Ratiney, Uncertainty in Neural Networks: Application to supply chain forecasting -->
+
 
 
 
