@@ -23,7 +23,7 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 
 __Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI.
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, follow me there, https://twitter.com/Tea_Pearce.
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
 <!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
