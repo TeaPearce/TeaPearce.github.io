@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tim Pearce's Homepage"
 title_separator          : "-"
 name                     : &name "Tim Pearce"
-description              : &description "AI Researcher"
+description              : &description "homepage of Tim Pearce, AI researcher"
 url                      : https://teapearce.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tim Pearce"
   avatar           : "me_turing_large_lowres.png"
-  bio              : "Researcher @Microsoft Research Cambridge || Uncertainty in deep learning / Reinforcement Learning"
+  bio              : "AI Researcher"
   # location         : "Location"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=09k1kdQAAAAJ&hl=en"
