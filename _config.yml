@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Tim Pearce"
 description              : &description "homepage of Tim Pearce, AI researcher"
@@ -172,18 +172,18 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
