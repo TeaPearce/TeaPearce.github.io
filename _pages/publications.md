@@ -21,7 +21,7 @@ __IEEE Conference on Games 2022, Best Paper Award__
 
 ## Reinforcement Learning ##
 
-F Lin*, S Huang*, __T Pearce__, W Chen, W-W Tu  
+F Lin\*, S Huang\*, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
 __AAMAS 2023__  
 [Paper](https://arxiv.org/abs/2302.07515)
