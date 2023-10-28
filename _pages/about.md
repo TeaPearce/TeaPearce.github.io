@@ -11,27 +11,24 @@ redirect_from:
 <!-- ## About ## -->
 __About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide-ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
 
-<!-- having worked on  uncertainty estimation in neural networks, Bayesian deep learning, survival analysis, behavioural cloning for video games, the exploration/exploitation dilemma, and algorithmic music composition. -->
-
-
-
-<!-- In general my research follows two philosophies; 1) Analysing and designing neural networks from a probabilistic view o -->
-
-<!-- and am particularly drawn to the probabilistic view of learning with neural networks, and building RL agents. -->
-
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
 __Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI.
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
-<!-- where my research explored how to get better uncertainty estimates from deep neural networks. I continued to explore this in my Postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/), where I also began building behavioural  -->
 
-<!-- In particular focusing on ensembling methods, and priors in Bayesian neural networks.  -->
+## News ##
 
-<!-- I'm a 4th year engineering PhD at the University of Cambridge, having spent time at the [Alan Turing Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute).  -->
-
-<!-- I completed an internship in reinforcement learning at [PROWLER.io/Secondmind](https://www.secondmind.ai/) and in causal ML at [FDL](https://frontierdevelopmentlab.org/) (NASA research accelerator). -->
+- July 2023. Giving a talk at QMU's Game AI group.
+- June 2023. Co-organizing Summer School on AI and Games.
+- June 2023. Traveling to Manchester Unveristy to give a keynote at Advances in Data Science and AI Conference.
+- May 2023. Heading to Rwanda for ICLR!
+- Jan 2023. 1x ICLR paper accepted.
+- Jan 2023. Giving a talk at Tsinghua TSAIL group on diffusion models for imitation learning.
+- Dec 2022. Attending NeurIPS to present my paper on censored quantile regression neural networks.
+- July 2022. My paper on behavioural cloning for counter-strike won best paper at IEEE CoG.
+- May 2022. I will be joining Microsoft Research as an AI researcher.
 
 
 
@@ -42,7 +39,7 @@ See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kd
 __T Pearce__, T Rashid, A Kanervisto, D Bignell, M Sun, R Georgescu, SV Macua, SZ Tan, I Momennejad, K Hofmann, S Devlin  
 Imitating Human Behaviour with Diffusion Models  
 __ICLR, 2023__  
-[Paper](https://arxiv.org/abs/2301.10677)
+[Paper](https://arxiv.org/abs/2301.10677) | [Code](https://github.com/microsoft/Imitating-Human-Behaviour-w-Diffusion)
 
 __T Pearce__, JH Jeong, Y Jia, J Zhu  
 Censored Quantile Regression Neural Networks  
@@ -51,7 +48,8 @@ __NeurIPS 2022__
 
 F Lin^, S Huang^, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
-__AAMAS 2023__
+__AAMAS 2023__  
+[Paper](https://arxiv.org/abs/2302.07515)
 
 __T Pearce__, J Zhu  
 Counter-Strike Deathmatch with Large-Scale Behavioural Cloning  
@@ -67,11 +65,6 @@ R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher
 Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks  
 __AAAI 2021__  
 [Paper](https://arxiv.org/abs/2002.08517)  
-
-__T Pearce__, Andrew Y. K. Foong, Alexandra Brintrup  
-Structured Priors for Convolutional Neural Networks  
-__ICML workshop, Uncertainty & Robustness in Deep Learning 2020__  
-[Paper](https://arxiv.org/abs/2007.14235)  | [Code](https://github.com/TeaPearce/Struct_Weight_Priors_CNNs)
 
 __T Pearce__, F Leibfried, M Zaki, A Brintrup, A Neely  
 Uncertainty in Neural Networks: Approximately Bayesian Ensembling  
@@ -119,17 +112,5 @@ Lab Demonstrator
 <!-- ## Supervising ## -->
 <!-- Master’s Thesis -->
 <!-- *	2018-19, David Ratiney, Uncertainty in Neural Networks: Application to supply chain forecasting -->
-
-## News ##
-
-- July 2023. Giving a talk at QMU's Game AI group.
-- June 2023. Co-organizing Summer School on AI and Games.
-- June 2023. Traveling to Manchester Unveristy to give a keynote at Advances in Data Science and AI Conference.
-- May 2023. Heading to Rwanda for ICLR!
-- Jan 2023. 1x ICLR paper accepted.
-- Jan 2023. Giving a talk at Tsinghua TSAIL group on diffusion models for imitation learning.
-- Dec 2022. Attending NeurIPS to present my paper on censored quantile regression neural networks.
-- July 2022. My paper on behavioural cloning for counter-strike won best paper at IEEE CoG.
-- May 2022. I will be joining Microsoft Research as an AI researcher.
 
 

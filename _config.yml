@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tim Pearce's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Tim Pearce"
 description              : &description "homepage of Tim Pearce, AI researcher"
