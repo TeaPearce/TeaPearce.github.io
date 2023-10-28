@@ -5,9 +5,9 @@
 @include border-box-sizing;
 
 html {
-  /* apply a natural box layout model to all elements */
+  /* apply a natural box layout model to all elements, background-color sets color for everything */
   box-sizing: border-box;
-  background-color: $background-color-head;
+  background-color: $background-color;
   font-size: 16px;
 
   @include breakpoint($medium) {
