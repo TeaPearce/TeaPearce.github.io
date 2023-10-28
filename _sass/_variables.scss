@@ -55,19 +55,19 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 /*
 $body-color                 : #fff;
-$background-color           : #fff;
+$background-color           : #fff; -- this is main color for whole page
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : $dark-gray; -- all text?
+$border-color               : $lighter-gray; -- outline of image and header
 */
 
-$body-color                 : #fff;
+$body-color                 : #ffccf2;
 $background-color           : #e6f7ff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : #000000;
+$border-color               : #1a1a1a;
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
