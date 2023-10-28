@@ -17,7 +17,7 @@ Censored Quantile Regression Neural Networks
 __NeurIPS 2022__  
 [Paper](https://arxiv.org/abs/2205.13496)  | [Code](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)
 
-F Lin^, S Huang^, __T Pearce__, W Chen, W-W Tu  
+F Lin*, S Huang*, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
 __AAMAS 2023__  
 [Paper](https://arxiv.org/abs/2302.07515)
