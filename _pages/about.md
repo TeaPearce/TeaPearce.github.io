@@ -122,9 +122,13 @@ Lab Demonstrator
 
 ## News ##
 
+- July 2023. Giving a talk at QMU's Game AI group.
+- June 2023. Co-organizing Summer School on AI and Games.
+- June 2023. Traveling to Manchester Unveristy to give a keynote at Advances in Data Science and AI Conference.
+- May 2023. Heading to Rwanda for ICLR!
 - Jan 2023. 1x ICLR paper accepted.
 - Jan 2023. Giving a talk at Tsinghua TSAIL group on diffusion models for imitation learning.
-- Dec 2022. Will be attending NeurIPS.
+- Dec 2022. Attending NeurIPS to present my paper on censored quantile regression neural networks.
 - July 2022. My paper on behavioural cloning for counter-strike won best paper at IEEE CoG.
 - May 2022. I will be joining Microsoft Research as an AI researcher.
 
