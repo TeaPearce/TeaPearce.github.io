@@ -6,6 +6,7 @@ main:
   - title: "Teaching"
     url: /teaching/   
   - title: "Demos"
-    url: /demos/   
-  - title: "CV"
-    url: https://teapearce.github.io/files/CVTimPearce.pdf  
+    url: /demos/ 
+  # add this back later
+  # - title: "CV"
+  #   url: https://teapearce.github.io/files/CVTimPearce.pdf  
