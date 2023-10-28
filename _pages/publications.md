@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for a comprehensive list.  
+See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
 
 __T Pearce__, T Rashid, A Kanervisto, D Bignell, M Sun, R Georgescu, SV Macua, SZ Tan, I Momennejad, K Hofmann, S Devlin  
 Imitating Human Behaviour with Diffusion Models  
