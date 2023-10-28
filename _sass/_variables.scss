@@ -55,7 +55,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 /*
 $body-color                 : #fff;
-$background-color           : #fff; -- this is main color for whole page, e6f7ff is blue
+$background-color           : #fff; -- this is main color for whole page, e6f7ff is blue, #fee7fe is pink
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray; -- all text?
@@ -63,7 +63,7 @@ $border-color               : $lighter-gray; -- outline of image and header
 */
 
 $body-color                 : #ffccf2;
-$background-color           : mix(#fff, #fee7fe, 90%);
+$background-color           : #faedf8;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
