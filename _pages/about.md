@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. In 2022, I joined Microsoft Research in the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. 
+__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. I am based at Microsoft Research in the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. 
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
-__Research.__ I have deep expertise in _imitation learning_, _world modeling_, _generative modeling_, and _uncertainty estimation_. Whilst my PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), recently I have focused on applying ideas from generative modeling to RL-type settings, e.g. [Diffusion BC](https://arxiv.org/abs/2301.10677). My [work](https://arxiv.org/abs/2104.04258) on behavioral cloning for Counter-Strike has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj).
+__Research.__ I have deep expertise in _imitation learning_, _world modeling_, _generative modeling_, and _uncertainty estimation_. Whilst my PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), recently I have focused on applying ideas from generative modeling to RL-type settings (e.g. [using diffusion for BC](https://arxiv.org/abs/2301.10677)). My [work](https://arxiv.org/abs/2104.04258) on behavioral cloning for video games has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj).
 
-__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research generally places roughly equal weighting on theory and empirics.
+1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research generally places roughly equal weighting on theory and empirics.
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
@@ -37,10 +37,9 @@ __Outreach.__ I set aside one hour each week to support underrepresented groups 
 
 
 
-## Videos ##
+## Misc Resources ##
 
-I sometimes make short videos summarising research papers I find interesting.
-
-* [A robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8)  
-* [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
+* I sometimes make short videos summarising research papers I find interesting, e.g. [A robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8), [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
+* I used MusicGen and other AI tools to produce [endless lofi music](https://youtu.be/zksy94xazUI?si=LNwRGXxgBjtTfdlc) -- explanation tweet [here](https://twitter.com/Tea_Pearce/status/1670541269280366599).
+* [Minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST) demonstrating classifier-free guidance for diffusion.
 
