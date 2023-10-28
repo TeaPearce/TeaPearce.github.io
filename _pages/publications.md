@@ -19,6 +19,13 @@ Counter-Strike Deathmatch with Large-Scale Behavioural Cloning
 __IEEE Conference on Games 2022, Best Paper Award__  
 [Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0) | [Code](https://github.com/TeaPearce/Counter-Strike_Behavioural_Cloning)
 
+## Reinforcement Learning ##
+
+F Lin*, S Huang*, __T Pearce__, W Chen, W-W Tu  
+TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
+__AAMAS 2023__  
+[Paper](https://arxiv.org/abs/2302.07515)
+
 
 ## Uncertainty and Neural Networks ##
 
@@ -52,10 +59,3 @@ High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensemb
 __ICML 2018__  
 [Paper](https://arxiv.org/abs/1802.07167) | [Video Intro](https://crossminds.ai/video/high-quality-prediction-intervals-for-deep-learning-a-distribution-free-ensembled-approach-6064c11294c854625bdac99b/)  | [Code](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)
 
-
-## Reinforcement Learning ##
-
-F Lin*, S Huang*, __T Pearce__, W Chen, W-W Tu  
-TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
-__AAMAS 2023__  
-[Paper](https://arxiv.org/abs/2302.07515)
