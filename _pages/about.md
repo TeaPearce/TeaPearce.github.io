@@ -9,9 +9,12 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. I have particular expertise in imitation learning, generative modeling, and uncertainty estimation in neural networks. I'm currently based at Microsoft Research in the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team.
+__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. In 2022, I joined Microsoft Research in the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. 
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
+
+__Research.__ I have deep expertise in imitation learning, world modeling, generative modeling, and uncertainty estimation in neural networks. Whilst my PhD centered around Bayesian deep learning, recently I have focused on applying ideas from generative modeling to RL-type settings, e.g. [diffusion BC](https://arxiv.org/abs/2301.10677). My work on behavioral cloning for Counter-Strike has also been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj).
+
 
 __Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research generally places roughly equal weighting on theory and empirics.
 
