@@ -9,6 +9,7 @@ See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kd
 
 ## Imitation Learning ##
 
+----
 __T Pearce__, T Rashid, A Kanervisto, D Bignell, M Sun, R Georgescu, SV Macua, SZ Tan, I Momennejad, K Hofmann, S Devlin  
 Imitating Human Behaviour with Diffusion Models  
 __ICLR, 2023__  
@@ -21,6 +22,7 @@ __IEEE Conference on Games 2022, Best Paper Award__
 
 ## Reinforcement Learning ##
 
+----
 F Lin\*, S Huang\*, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
 __AAMAS 2023__  
@@ -29,6 +31,7 @@ __AAMAS 2023__
 
 ## Uncertainty and Neural Networks ##
 
+----
 __T Pearce__, JH Jeong, Y Jia, J Zhu  
 Censored Quantile Regression Neural Networks  
 __NeurIPS 2022__  
