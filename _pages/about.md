@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm an AI researcher at Microsoft Research in the [Deep Reinforcement Learning for Games](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. I have wide-ranging interest across AI and machine learning, with expertise in uncertainty estimation in neural networks, and imitation learning.
+__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. I have particular expertise in imitation learning, generative modeling, and uncertainty estimation in neural networks. I'm currently based at Microsoft Research in the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team.
 
-__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/manufacturing-analytics/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
+__Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
-__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that RL, with it's mix of sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI.
+__Research Philosophy.__ 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research generally places roughly equal weighting on theory and empirics.
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
