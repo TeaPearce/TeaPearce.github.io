@@ -21,13 +21,13 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 ## News ##
 
 - July 2023. Giving a talk at QMU's Game AI group.
-- June 2023. Co-organizing Summer School on AI and Games.
-- June 2023. Traveling to Manchester Unveristy to give a keynote at Advances in Data Science and AI Conference.
+- June 2023. Co-organizing [Summer School on AI and Games](https://school.gameaibook.org/).
+- June 2023. Traveling to Manchester Unveristy to give a keynote at [Advances in Data Science and AI Conference](https://events.manchester.ac.uk/event/event:k14l-leplq84p-od61dv/idsai-advances-in-data-science-and-ai-conference-2023).
 - May 2023. Heading to Rwanda for ICLR!
 - Jan 2023. 1x ICLR paper accepted.
 - Jan 2023. Giving a talk at Tsinghua TSAIL group on diffusion models for imitation learning.
-- Dec 2022. Attending NeurIPS to present my paper on censored quantile regression neural networks.
-- July 2022. My paper on behavioural cloning for counter-strike won best paper at IEEE CoG.
+- Dec 2022. Attending NeurIPS to present my paper on [censored quantile regression neural networks](https://arxiv.org/abs/2205.13496).
+- July 2022. My [paper](https://arxiv.org/abs/2104.04258) on behavioural cloning for counter-strike won best paper at IEEE CoG.
 - May 2022. I will be joining Microsoft Research as an AI researcher.
 
 
