@@ -132,7 +132,7 @@
     text-align: center;
     text-decoration: none;
     color: mix(#fff, $gray, 50%);
-    border: 1px solid $light-gray;
+    border: 5px solid $light-gray;
     border-radius: $border-radius;
 
     &:hover {
@@ -255,7 +255,7 @@
     right: 0;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid $border-color;
+    border: 5px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -375,7 +375,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;
-  border: 1px solid $border-color;
+  border: 5px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
