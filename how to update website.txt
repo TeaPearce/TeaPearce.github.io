@@ -1,0 +1,11 @@
+update stuff in this folder
+
+when do git push, need to create personal access token
+https://collabnix.com/how-to-fix-support-for-password-authentication-was-removed-error-in-github/
+
+use this when it asks for password
+
+navigation.yml -- edit this for top bar headers
+_config.yml changes general stuff like name
+
+most stuff I'll want to edit in future is under _pages/
