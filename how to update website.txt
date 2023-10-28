@@ -8,6 +8,9 @@ https://collabnix.com/how-to-fix-support-for-password-authentication-was-removed
 
 use this when it asks for password
 
+
+_variables.scss -- for color variables etc
+_sidebar.scss -- to get rid of profile image rounding
 navigation.yml -- edit this for top bar headers
 _config.yml changes general stuff like name
 
