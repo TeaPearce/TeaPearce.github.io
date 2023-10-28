@@ -41,7 +41,7 @@ __Outreach.__ I set aside one hour each week to support underrepresented groups 
 
 ## Misc Resources ##
 
-* I sometimes make short videos summarising research papers I find interesting, e.g. [A robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8), [AlphaCode explained](https://youtu.be/YjsoN5aJChA)  
+* I sometimes make short videos summarising research papers I find interesting, e.g. [a robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8), or [explaining how AlphaCode works](https://youtu.be/YjsoN5aJChA)  
 * I used MusicGen and other AI tools to produce [endless lofi music](https://youtu.be/zksy94xazUI?si=LNwRGXxgBjtTfdlc) -- explanation tweet [here](https://twitter.com/Tea_Pearce/status/1670541269280366599).
-* [Minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST) demonstrating classifier-free guidance for diffusion.
+* I demonstrated how classifier-free guidance for diffusion works using a [minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST).
 
