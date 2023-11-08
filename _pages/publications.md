@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
+This page shares some of my favorite papers, grouped into themes. See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
 
 ## Imitation Learning ##
 
