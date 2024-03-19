@@ -7,6 +7,7 @@ when do git push, need to create personal access token
 https://collabnix.com/how-to-fix-support-for-password-authentication-was-removed-error-in-github/
 
 use this when it asks for password
+(Might to push again to get it to call up, username is TeaPearce)
 
 
 _variables.scss -- for color variables etc

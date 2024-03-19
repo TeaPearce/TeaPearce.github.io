@@ -1,14 +1,10 @@
 ---
-title: 'Blog Post number 1'
+title: 'The Research Pathway to GPT-4'
 date: 2024-03-19
-permalink: /posts/2024/GPT-pathway/
-tags:
-  - cool posts
-  - category1
-  - category2
+permalink: /blog/2024/GPT-pathway/
 ---
 
-Testing this
+Testing this 2
 
 Headings are cool
 ======
