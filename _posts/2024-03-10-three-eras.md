@@ -4,7 +4,7 @@ date: 2024-03-10
 permalink: /blog/2024/ML-eras-bottlenecks/
 ---
 
-TLDR: Making sense of where we are in AI research by looking at the bottlenecks of each machine learning era so far, and where this suggests we’re headed.
+_TLDR: Making sense of where we are in AI research by looking at the bottlenecks of each machine learning era so far, and where this suggests we’re headed._
 
 
 ## Eras
@@ -41,7 +41,7 @@ It’s risky to extrapolate based on three datapoints, but since we are collecti
 
 **Extrapolation 2.** A more abstracted reliance on humans.
    - Observation 2 notes a trend towards less reliance on manual human input. While Era 3 systems largely ignore human design, human-generated datasets remain at their core. This imposes a hard limit on what a system can learn. Era 4 will continue to reduce reliance on human input, perhaps in a role even more abstract than as demonstrators (e.g. learning from interaction with humans).
-   
+
 **Extrapolation 3.** The AI research community will become monolithic.
    - Observation 3 suggests a trend towards a single system that will work across all modalities. It may not make sense to have separate communities working on computer vision, language, robotics etc., as all these areas will be jointly training and utilizing the same common model(s).
 
