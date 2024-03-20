@@ -1,7 +1,7 @@
 ---
 title: 'Machine Learning Eras and their Bottlenecks'
 date: 2024-02-28
-permalink: /blog/2024/ML-eras-bottlenecks/
+permalink: /blog/ML-eras-bottlenecks/
 ---
 
 _TLDR: Making sense of where we are in AI research by looking at the bottlenecks of each machine learning era so far, and where this suggests we’re headed._
