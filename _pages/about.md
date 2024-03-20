@@ -23,7 +23,7 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 __Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️.
 
-UPDATE: I'll continue these sessions until end of April 2024, after which I'll be continuing my outreach efforts in a new format.
+UPDATE: I'll run these sessions until end of April 2024, after which I'll be continuing my outreach efforts in a new format.
 
 
 ## News ##
