@@ -22,10 +22,10 @@ There’s a long way to go to GPT-4, but this paper has unearthed a key foundati
 
 > _“We give evidence that [GANs] learn good representations of images for supervised learning”_
 
-## GP(T)-0: Learning to Generate Reviews and Discovering Sentiment, April 2017
+## GPT-0(ish): Learning to Generate Reviews and Discovering Sentiment, April 2017
 **Authors:** Alec Radford, Rafal Jozefowicz, Ilya Sutskever
 
-I’ve come to think of this as GP(T)-0. While it’s not a transformer, it does generative pre-training at large-scale (for the time) on language. The paper makes two findings that will be pivotal to the development of LLMs. 1) A low-level future sequence-prediction objective *can* lead toa model learning high-level concepts. 2) The pretraining dataset distribution should align with the downstream data distribution.
+I’ve come to think of this as GPT-0. While it’s not a transformer, it does generative pre-training at large-scale (for the time) on language. The paper makes two findings that will be pivotal to the development of LLMs. 1) A low-level future sequence-prediction objective *can* lead to a model learning high-level concepts. 2) The pretraining dataset distribution should align with the downstream data distribution.
 
 Tokens were not quite a thing, rather the model is trained to predict the next character in a sequence (more accurately bytes of a UTF-8 encoding). The dataset is made up of reviews from Amazon (around 8 billion words). It uses an LSTM (4096 hidden units), context length 256, and is trained for one month on four GPUs.
 
@@ -35,11 +35,11 @@ This is early support for a what’s subsequently become a cornerstone intuition
 
 > _“it is not immediately clear whether such a low-level training objective supports the learning of high-level representations.”_
 
-Something interesting about this paper is that it signals the authors' dataset-first thinking. Regarding the pretraining dataset selection, the authors note,
+Something interesting about this paper is that it signals the authors' dataset-centric thinking. Regarding the pretraining dataset selection, the authors note,
 
 > _“We train on a very large corpus picked to have a similar distribution as our task of interest.”_
 
-Specifically, they've chosen to pretrain on Amazon reviews, and test on semantic benchmarks like IMDB and Yelp. Even on Yelp they blame a plateau of performance on Yelp reviews being about businesses not products. They do brief experiments on other tasks (semantic relatedness and paraphrase detection) using text from other domains and again find limited performance, blaming the data mismatch in train and test distributions. This turns out to be a key insight that guides the authors to pursue training on increasingly diverse datasets.
+Specifically, they've chosen to pretrain on Amazon reviews, and test on sentiment analysis benchmarks like IMDB and Yelp. They even blame a performance _plateau_ in Yelp on the reviews being about businesses not products. They do brief experiments on other tasks (semantic relatedness and paraphrase detection) using text from other domains and again find limited performance, blaming the data mismatch in train and test distributions. This turns out to be a key insight that guides the authors to pursue training on increasingly diverse datasets in future work.
 
 As something of an afterthought, they show some shaky generations from the model. Holding the ‘sentiment neuron’ at a fixed value allows control over the sentiment of the generated sentence.
 
