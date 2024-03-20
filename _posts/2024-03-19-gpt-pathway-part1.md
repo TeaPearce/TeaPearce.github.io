@@ -6,7 +6,7 @@ permalink: /blog/GPT-pathway-1/
 
 _TLDR: This post follows the thread of papers authored by Alec Radford that ultimately led to GPT-4. It observes that original motivation for the next-token prediction was as a representation learning mechanism, and there appears to be a gradual (and somewhat accidental) realization that these models could be used for much more…_
 
-[Part 2 here] (https://teapearce.github.io/blog//GPT-pathway-2/)
+[Part 2 here](https://teapearce.github.io/blog//GPT-pathway-2/)
 
 ## Pre-GPT: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks, November 2015
 **Authors:** Alec Radford, Luke Metz, Soumith Chintala

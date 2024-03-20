@@ -6,7 +6,7 @@ permalink: /blog/GPT-pathway-2/
 
 _TLDR: This post follows the thread of papers authored by Alec Radford that ultimately led to GPT-4. It observes that original motivation for the next-token prediction was as a representation learning mechanism, and there appears to be a gradual (and somewhat accidental) realization that these models could be used for much more…_
 
-[Part 1 here] (https://teapearce.github.io/blog//GPT-pathway-1/)
+[Part 1 here](https://teapearce.github.io/blog//GPT-pathway-1/)
 
 
 ## GPT-1: Improving Language Understanding by Generative Pre-Training, June 2018
