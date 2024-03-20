@@ -34,10 +34,10 @@ From these descriptions, several trends become clear.
 
 ## Extrapolations
 It’s risky to extrapolate based on three datapoints, but since we are collecting them at a rate of one per decade, let’s have a go at extrapolating what Era 4 might look like.
-__Extrapolation 1.__ Era 4 will not have distinct pretraining and alignment phases.
+**Extrapolation 1.** Era 4 will not have distinct pretraining and alignment phases.
    - Currently, a large amount of effort goes into taking a pretrained self-supervised transformer, and aligning it (e.g. SFT, RLHF, DPO) to suit downstream users’ needs. It’s hard work and numerous issues persist (e.g. hallucinations, bias, jailbreaking). New eras are created by adopting a modeling paradigm that sidesteps the bottleneck of the previous era (Observation 1). Rather than having improved alignment methods, Era 4 will instead have sidestepped the need for this alignment phase altogether. 
-__Extrapolation 2.__ A more abstracted reliance on humans.
+**Extrapolation 2.** A more abstracted reliance on humans.
    - Observation 2 notes a trend towards less reliance on manual human input. While Era 3 systems largely ignore human design, human-generated datasets remain at their core. This imposes a hard limit on what a system can learn. Era 4 will continue to reduce reliance on human input, perhaps in a role even more abstract than as demonstrators (e.g. learning from interaction with humans).
-__Extrapolation 3.__ The AI research community will become monolithic.
+**Extrapolation 3.** The AI research community will become monolithic.
    - Observation 3 suggests a trend towards a single system that will work across all modalities. It may not make sense to have separate communities working on computer vision, language, robotics etc., as all these areas will be jointly training and utilizing the same common model(s).
 

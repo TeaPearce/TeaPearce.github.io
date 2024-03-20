@@ -7,7 +7,7 @@ permalink: /blog/2024/GPT-pathway/
 _TLDR: This post follows the thread of papers authored by Alec Radford that ultimately led to GPT-4. It observes that original motivation for the next-token prediction was as a representation learning mechanism, and there was a gradual (and somewhat accidental) realisation that these models could be used for much more than their representations…_
 
 
-### Pre-GPT: Unsupervised representation learning with deep convolutional generative adversarial networks, November 2015
+## Pre-GPT: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks, November 2015
 **Authors:** Alec Radford, Luke Metz, Soumith Chintala
 
 Our story starts with Alec Radford’s first paper. Whilst it may be best-known for introducing the DCGAN, it’s the modeling *philosophy* that we’re interested in here. It starts with one key observation upon which the entire LLM paradigm ends up being built — unlabeled data is abundant!
@@ -22,7 +22,7 @@ There’s a long way to go to GPT-4, but we have unearthed a key foundational id
 
 > _“We give evidence that [GANs] learn good representations of images for supervised learning”_
 
-### GP-0: Learning to Generate Reviews and Discovering Sentiment, April 2017
+## GP-0: Learning to Generate Reviews and Discovering Sentiment, April 2017
 **Authors:** Alec Radford, Rafal Jozefowicz, Ilya Sutskever
 
 I’ve come to think of this as GP-0. While it’s not a transformer, it does generative pre-training at large-scale (for the time). The paper makes two findings that will be pivotal to the development of LLMs. 1) A low-level sequence-prediction task *can* lead to high-level concepts. 2) The pretraining dataset distribution should align with the downstream data distribution.
