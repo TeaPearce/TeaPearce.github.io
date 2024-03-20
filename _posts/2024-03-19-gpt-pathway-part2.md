@@ -50,7 +50,7 @@ The model is 1.5B parameters, trained on 7 billion words from the new-collected 
 
 > _“We would like to move towards more general systems which can perform many tasks – eventually without the need to manually create and label a training dataset for each one”_
 
-While predictive language models learn to model p(output|input), in multitask settings this must be changed to, p(output|input, task). And there are multiple tasks in language! **The key conceptual insight is that language is a special modality that allows the task to be encoded as part of the input**. This allows a language model to predict p(output|input-with-task-appended), without requiring architectural changes. (Shout out to [1] for spearheading this.)
+While predictive language models learn to model p(output\|input), in multitask settings this must be changed to, p(output\|input, task). And there are multiple tasks in language! **The key conceptual insight is that language is a special modality that allows the task to be encoded as part of the input**. This allows a language model to predict p(output\|input-with-task-appended), without requiring architectural changes. (Shout out to [1] for spearheading this.)
 
 > _“Language provides a flexible way to specify tasks, inputs, and outputs all as a sequence of symbols. For example, a translation training example can be written as the sequence (translate to french, english text, french text). Likewise, a reading comprehension training example can be written as (answer the question, document, question, answer).”_
 
