@@ -8,7 +8,7 @@ main:
   - title: "Demos"
     url: /demos/ 
   - title: "Blog"
-    url: /year-archive/ 
+    url: /blog/ 
   # add this back later
   # - title: "CV"
   #   url: https://teapearce.github.io/files/CVTimPearce.pdf  
