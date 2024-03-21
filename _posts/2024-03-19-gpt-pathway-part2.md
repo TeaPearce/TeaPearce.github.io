@@ -24,19 +24,18 @@ Another significant change over the previous works is the level of **generality*
 
 > _“By pre-training on a diverse corpus with long stretches of contiguous text our model acquires significant world knowledge and ability to process long-range dependencies which are then successfully transferred to solving discriminative tasks such as question answering, semantic similarity assessment, entailment determination, and text classification, improving the state of the art on 9 of the 12 datasets.”_
 
-Reading these papers now, perhaps the most surprising thing is the lack of focus on the generative capabilities of these models — the generative objective is presented as a convenient pretext task to learn good representations from, rather as the main event.
-
 While this benchmarking focuses on training linear classification heads on downstream tasks, importantly, they do a brief investigation into zero-shot capabilities. For example for Q and A benchmarks, they can choose the multiple choice answer that has highest likelihood under the generative model, or for sentiment analysis the words ‘very positive’ or ‘very negative’ are appended at the end of the sentence and the highest likelihood option is selected.
 
 > _“We designed a series of heuristic solutions that use the underlying generative model to perform tasks without supervised finetuning”_
 
 It’s hard to understate the significance of this seemingly innocuous analysis. While it’ll take another year or so for this idea to come to fruition, **this marks the initial realization that the models can effectively complete downstream tasks by being used in their native ‘generative’ modes** rather than by using model-surgery to extract their representations and finetune.
 
-It’s interesting that the motivation for this analysis is to provide intuition for why generative modeling is a useful (rather than them seriously considering this as a primary mode of operation).
+<!-- It’s interesting that the motivation for this analysis is to provide intuition for why generative modeling is a useful (rather than them seriously considering this as a primary mode of operation). -->
+<!-- Reading these papers now, perhaps the most surprising thing is the lack of focus on the generative capabilities of these models — the generative objective is presented as a convenient pretext task to learn good representations from, rather as the main event. -->
 
-“We’d like to better understand why language model pre-training of transformers is effective. A hypothesis is that the underlying generative model learns to perform many of the tasks we evaluate on in order to improve its language modeling capability”
+<!-- “We’d like to better understand why language model pre-training of transformers is effective. A hypothesis is that the underlying generative model learns to perform many of the tasks we evaluate on in order to improve its language modeling capability” -->
 
-This suggests that the coming discovery that this generative mode will be so powerful is somewhat accidental.
+The stated motivation for this zero-shot investigation is to gain intuition for why generative modeling is a useful. This suggests that the discovery of the effectiveness of using the models in their generative mode is gradual and somewhat accidental.
 
 
 ## GPT-2: Language Models are Unsupervised Multitask Learners, 2019
