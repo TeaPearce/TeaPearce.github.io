@@ -41,15 +41,15 @@ The stated motivation for this zero-shot investigation is to gain intuition for 
 ## GPT-2: Language Models are Unsupervised Multitask Learners, 2019
 **Authors:** Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
 
-There transition from GPT-1 to GPT-2 is a smooth one. The pretraining recipe is unchanged, but there is *more* of everything. More diversity, more data, more parameters. 
+There transition from GPT-1 to GPT-2 is a smooth one. The pretraining recipe is unchanged, but there is *more* of everything. More data, more diversity in the data, more parameters. 
 
-The model is 1.5B parameters, trained on 7 billion words from the new-collected WebText dataset (outbound linked webpages from Reddit). Context length is 1024.
+The model is 1.5B parameters, trained on 7 billion words from the freshly-scraped WebText dataset (outbound linked webpages from Reddit with >3 Karma). Context length is 1024.
 
-**There is also one conceptual leap made in the paper**. Our story so far has seen generative modeling exploited as a mechanism to learn representations that will be repurposed for supervised learning systems. But now there is a twist, foreshadowed by GPT-1 — the generative mode is found to be effective at test time, used directly in downstream tasks, without the need for training new linear classification heads.
+**There is also one conceptual leap made in the paper**. Our story so far has seen generative modeling exploited as a mechanism to learn representations that will be repurposed for supervised learning systems. But the generative mode is found to be effective at test time, used directly in downstream tasks, without the need for training new linear classification heads -- this was foreshadowed by the investigation of the zero-shot capabilities of GPT-1.
 
 > _“We would like to move towards more general systems which can perform many tasks – eventually without the need to manually create and label a training dataset for each one”_
 
-While predictive language models learn to model p(output\|input), in multitask settings this must be changed to, p(output\|input, task). And there are multiple tasks in language! **The key conceptual insight is that language is a special modality that allows the task to be encoded as part of the input**. This allows a language model to predict p(output\|input-with-task-appended), without requiring architectural changes. (Shout out to [1] for spearheading this.)
+While predictive language models learn to model p(output \| input), in multitask settings this must be changed to, p(output \| input, task). **The key conceptual insight is that language is a special modality that allows the task to be encoded as part of the input**. This allows a language model to predict p(output \| input-with-task-appended), without requiring architectural changes. (Shout out to [1] for spearheading this.)
 
 > _“Language provides a flexible way to specify tasks, inputs, and outputs all as a sequence of symbols. For example, a translation training example can be written as the sequence (translate to french, english text, french text). Likewise, a reading comprehension training example can be written as (answer the question, document, question, answer).”_
 
@@ -59,9 +59,9 @@ Yet there is one caveat to this — the pretraining data distribution must be br
 
 > _“Most prior work trained language models on a single domain of text, such as news articles, Wikipedia, or fiction books. Our approach motivates building as large and diverse a dataset as possible in order to collect natural language demonstrations of tasks in as varied of domains and contexts as possible… we want to avoid making assumptions about the tasks to be performed ahead of time.”_
 
-Careful readers will note that this diversity is not a sudden introduction — it is a direct consequence of the conclusions in GPT-1 and GP(T)-0; success always depended on how well the pretraining distribution matched the downstream task distribution. 
+Careful readers will note that this diversity is not a sudden introduction . It is a direct consequence of the conclusions in GPT-1 and GP(T)-0; success always depended on how well the pretraining distribution matched the downstream task distribution. 
 
-A final highlight of the paper is its focus on model size. Note that by 2019, it was no great secret that bigger was usually better in deep learning (e.g. see the 2015 ResNet paper [2]). But it’s revealing that almost every figure and table in the paper showed performance progressing from 117M to 1.5B params, suggesting that model scale was top of mind for the authors. 
+A final highlight of the paper is its focus on model size. Note that by 2019, it was no great secret that bigger was usually better in deep learning (e.g. 2015 ResNet paper [2]). But it’s revealing that almost every figure and table in the paper showed performance progressing from 117M to 1.5B params, suggesting that model scale was top of mind for the authors. 
 
 This paper also provides a first taste of some future downsides of LLMs. Data contamination between pretraining and test sets, and closed science — no information on training resources are shared, and the open-sourcing of the model weights is delayed.
 
