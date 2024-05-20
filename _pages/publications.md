@@ -40,7 +40,7 @@ __NeurIPS 2022__
 __T Pearce__, A Brintrup, J Zhu  
 Understanding Softmax Confidence and Uncertainty   
 __ArXiv 2021__  
-[Paper](https://arxiv.org/abs/1810.05546) 
+[Paper](https://arxiv.org/abs/2106.04972) 
 
 R Tsuchida, __T Pearce__, C Van Der Heide, F Roosta, M Gallagher  
 Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks  
