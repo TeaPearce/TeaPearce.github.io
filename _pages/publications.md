@@ -20,9 +20,20 @@ Counter-Strike Deathmatch with Large-Scale Behavioural Cloning
 __IEEE Conference on Games 2022, Best Paper Award__  
 [Paper](https://arxiv.org/abs/2104.04258) | [Video Intro](https://youtu.be/rnz3lmfSHv0) | [Code](https://github.com/TeaPearce/Counter-Strike_Behavioural_Cloning)
 
+T Luo, __T Pearce__, H Chen, J Chen, J Zhu
+C-GAIL: Stabilizing Generative Adversarial Imitation Learning with Control Theory
+__ArXiv 2024__ 
+[Paper](https://arxiv.org/abs/2402.16349) 
+
 ## Reinforcement Learning ##
 
 ----
+E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*
+Diffusion for World Modeling: Visual Details Matter in Atari
+__ArXiv 2024__  
+[Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)
+
+
 F Lin\*, S Huang\*, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
 __AAMAS 2023__  

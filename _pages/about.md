@@ -21,13 +21,16 @@ My research aims to build and understand AI systems that are scalable, robust an
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{tim.pearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
-__Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️.
+<!-- __Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️. -->
 
-UPDATE: I'll run these sessions until end of April 2024, after which I'll be continuing my outreach efforts in a new format.
+<!-- UPDATE: I'll run these sessions until end of April 2024, after which I'll be continuing my outreach efforts in a new format. -->
 
 
 ## News ##
 
+- May 2024. New preprint out 👏 [Diffusion for World Modeling: Visual Details Matter in Atari](https://arxiv.org/abs/2405.12399).
+- May 2024. Presenting two papers at ICLR workshop generative AI for decision making.
+- March 2024. Wrote a blog post tracking the GPT series of models [here](https://teapearce.github.io/blog/GPT-pathway-1/).
 - July 2023. Giving a talk at QMU's Game AI group. 👾
 - June 2023. Co-organizing [Summer School on AI and Games](https://school.gameaibook.org/).
 - June 2023. Traveling to Manchester Unveristy to give a keynote at [Advances in Data Science and AI Conference](https://events.manchester.ac.uk/event/event:k14l-leplq84p-od61dv/idsai-advances-in-data-science-and-ai-conference-2023).
