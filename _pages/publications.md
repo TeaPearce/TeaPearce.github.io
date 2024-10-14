@@ -35,7 +35,8 @@ C-GAIL: Stabilizing Generative Adversarial Imitation Learning with Control Theor
 __NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2402.16349)  
 
-## Reinforcement Learning ##
+
+## World Models ##
 
 ----
 E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
@@ -44,6 +45,9 @@ __NeurIPS 2024__
 [Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
 
 
+## Reinforcement Learning ##
+
+----
 F Lin\*, S Huang\*, __T Pearce__, W Chen, W-W Tu  
 TiZero: Mastering Multi-Agent Football with Curriculum Learning and Self-Play  
 __AAMAS 2023__  
