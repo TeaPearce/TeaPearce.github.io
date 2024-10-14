@@ -22,7 +22,7 @@ __ArXiv 2024__
 ----
 __T Pearce__, T Rashid, A Kanervisto, D Bignell, M Sun, R Georgescu, SV Macua, SZ Tan, I Momennejad, K Hofmann, S Devlin  
 Imitating Human Behaviour with Diffusion Models  
-__ICLR, 2023__  
+__ICLR 2023__  
 [Paper](https://arxiv.org/abs/2301.10677) | [Code](https://github.com/microsoft/Imitating-Human-Behaviour-w-Diffusion)
 
 __T Pearce__, J Zhu  
