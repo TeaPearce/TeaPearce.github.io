@@ -11,7 +11,7 @@ This page shares some of my favorite papers, grouped into themes. See my [Google
 ## Scaling ##
 
 ----
-__T Pearce__, J Zhu  
+__T Pearce__, J Song  
 Reconciling Kaplan and Chinchilla Scaling Laws  
 __ArXiv 2024__  
 [Paper](https://arxiv.org/abs/2406.12907) | [Code](https://github.com/TeaPearce/Reconciling_Kaplan_Chinchilla_Scaling_Laws)
