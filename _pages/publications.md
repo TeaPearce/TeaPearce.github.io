@@ -7,6 +7,16 @@ author_profile: true
 
 This page shares some of my favorite papers, grouped into themes. See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
 
+
+## Scaling ##
+
+----
+__T Pearce__, J Zhu  
+Reconciling Kaplan and Chinchilla Scaling Laws  
+__ArXiv 2024__  
+[Paper](https://arxiv.org/abs/2406.12907) | [Code](https://github.com/TeaPearce/Reconciling_Kaplan_Chinchilla_Scaling_Laws)
+
+
 ## Imitation Learning ##
 
 ----
@@ -22,7 +32,7 @@ __IEEE Conference on Games 2022, Best Paper Award__
 
 T Luo, __T Pearce__, H Chen, J Chen, J Zhu  
 C-GAIL: Stabilizing Generative Adversarial Imitation Learning with Control Theory  
-__ArXiv 2024__   
+__NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2402.16349)  
 
 ## Reinforcement Learning ##
@@ -30,7 +40,7 @@ __ArXiv 2024__
 ----
 E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
 Diffusion for World Modeling: Visual Details Matter in Atari  
-__ArXiv 2024__   
+__NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
 
 
