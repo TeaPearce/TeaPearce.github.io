@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 <!-- ## About ## -->
-__About.__ I'm an AI researcher with wide-ranging interest across AI and machine learning. I am based at Microsoft Research in the [Game Intelligence](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) team. 
+__About.__ I'm a researcher with wide-ranging interest across AI and machine learning. I am based at Microsoft Research working with the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) (Cambridge), [Machine Learning Group](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) (Beijing), & [AI Frontiers](https://www.microsoft.com/en-us/research/lab/ai-frontiers/) (NYC).
+
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
