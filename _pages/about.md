@@ -17,8 +17,8 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 __Research.__
 I have deep expertise in _scaling laws_, _imitation learning_, _world modeling_, _generative modeling_, and _uncertainty estimation_. My PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), I then moved focus to applying ideas from generative modeling to embodied settings (e.g. [using diffusion to imitate humans](https://arxiv.org/abs/2301.10677) and [game environments](https://arxiv.org/abs/2405.12399)). My [work (and dataset)](https://arxiv.org/abs/2104.04258) on behavioral cloning for video games has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj). Recently I have helped understand the science of scaling in AI, such as [reconciling conflicting scaling law coefficients](https://arxiv.org/abs/2406.12907).
 
-My research aims to build and understand AI systems that are scalable, robust and human-like. My philosophy incorporates several elements.
-1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research places equal weighting on theory and empirics.
+<!-- My research aims to build and understand AI systems that are scalable, robust and human-like. My philosophy incorporates several elements.
+1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research places equal weighting on theory and empirics. -->
 
 __Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{v-timpearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
@@ -29,7 +29,10 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## News ##
 
+- November 2024. New preprint -- [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
+- November 2024. [Reconciling Kaplan and Chinchilla Scaling Laws](https://arxiv.org/abs/2406.12907) accepted to TMLR. 😊
 - October 2024. Two papers accepted to NeurIPS! [Diffusion for World Modeling: Visual Details Matter in Atari](https://arxiv.org/abs/2405.12399), [C-GAIL: Stabilizing Generative Adversarial Imitation with Control Theory](https://arxiv.org/abs/2402.16349).
+- September 2024. Will be in Beijing the next while -- 在北京的朋友们来打个招呼吧. 😋
 - August 2024. New preprint out [Reconciling Kaplan and Chinchilla Scaling Laws](https://arxiv.org/abs/2406.12907).
 - May 2024. New preprint out 👏 [Diffusion for World Modeling: Visual Details Matter in Atari](https://arxiv.org/abs/2405.12399).
 - May 2024. Presenting two papers at ICLR workshop generative AI for decision making.
