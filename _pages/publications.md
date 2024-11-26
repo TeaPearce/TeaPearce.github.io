@@ -13,8 +13,13 @@ This page shares some of my favorite papers, grouped into themes. See my [Google
 ----
 __T Pearce__, J Song  
 Reconciling Kaplan and Chinchilla Scaling Laws  
-__ArXiv 2024__  
+__TMLR 2024__  
 [Paper](https://arxiv.org/abs/2406.12907) | [Code](https://github.com/TeaPearce/Reconciling_Kaplan_Chinchilla_Scaling_Laws)
+
+__T Pearce__\*, T Rashid\*, D Bignell, R Georgescu, S Devlin, K Hofmann  
+Scaling Laws for Pre-training Agents and World Models  
+__ArXiv 2024__  
+[Paper](https://arxiv.org/abs/2411.04434)
 
 
 ## Imitation Learning ##
