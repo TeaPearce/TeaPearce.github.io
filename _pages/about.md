@@ -15,12 +15,12 @@ __About.__ I'm a researcher with wide-ranging interest across AI and machine lea
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and then did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I also spent one year in Taiwan studying 中文.
 
 __Research.__
-I have deep expertise in _scaling laws_, _imitation learning_, _world modeling_, _generative modeling_, and _uncertainty estimation_. My PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), I then moved focus to applying ideas from generative modeling to embodied settings (e.g. [using diffusion to imitate humans](https://arxiv.org/abs/2301.10677) and [game environments](https://arxiv.org/abs/2405.12399)). My [work (and dataset)](https://arxiv.org/abs/2104.04258) on behavioral cloning for video games has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj). Recently I have helped understand the science of scaling in AI, such as [reconciling conflicting scaling law coefficients](https://arxiv.org/abs/2406.12907).
+I have deep expertise in _scaling laws_, _imitation learning_, _world modeling_, _generative modeling_, and _uncertainty estimation_. My PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), I then moved focus to applying ideas from generative modeling to embodied settings (e.g. [using diffusion to imitate humans](https://arxiv.org/abs/2301.10677) and [game environments](https://arxiv.org/abs/2405.12399)). My [work (and dataset)](https://arxiv.org/abs/2104.04258) on behavioral cloning for video games has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj). Recently I have helped understand the science of scaling in AI, such as [reconciling conflicting scaling law coefficients](https://arxiv.org/abs/2406.12907) and the role of [pre-training in embodied AI](https://arxiv.org/abs/2411.04434).
 
 <!-- My research aims to build and understand AI systems that are scalable, robust and human-like. My philosophy incorporates several elements.
 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research places equal weighting on theory and empirics. -->
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{v-timpearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, reach me via email at $x$@microsoft.com, where, $x=\text{v-pearcetim}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
 <!-- __Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️. -->
 
@@ -46,8 +46,6 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 - Dec 2022. Attending NeurIPS to present my paper on [censored quantile regression neural networks](https://arxiv.org/abs/2205.13496).
 - July 2022. My [paper](https://arxiv.org/abs/2104.04258) on behavioural cloning for counter-strike won best paper at IEEE CoG.
 - May 2022. I will be joining Microsoft Research as an AI researcher.
-
-
 
 
 ## Misc Resources ##
