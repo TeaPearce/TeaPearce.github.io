@@ -29,6 +29,7 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## News ##
 
+- March 2025. [Neural scaling Laws: Fundamentals and Frontiers](youtu.be/8tKgHh83m78). A talk summarizing some things I've learned about (+ contributed to in) scaling law research over the past ~1 year.
 - November 2024. New preprint -- [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
 - November 2024. [Reconciling Kaplan and Chinchilla Scaling Laws](https://arxiv.org/abs/2406.12907) accepted to TMLR. 😊
 - October 2024. Two papers accepted to NeurIPS! [Diffusion for World Modeling: Visual Details Matter in Atari](https://arxiv.org/abs/2405.12399), [C-GAIL: Stabilizing Generative Adversarial Imitation with Control Theory](https://arxiv.org/abs/2402.16349).
