@@ -20,7 +20,7 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 <!-- My research aims to build and understand AI systems that are scalable, robust and human-like. My philosophy incorporates several elements.
 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research places equal weighting on theory and empirics. -->
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, ~~reach me via email at $x$@microsoft.com, where, $x=\text{v-pearcetim}$~~ message me on Twitter. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, message me on Twitter. ~~reach me via email at $x$@microsoft.com, where, $x=\text{--}$~~. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
 <!-- __Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️. -->
 
@@ -52,6 +52,7 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## Misc Resources ##
 
+* [Neural scaling Laws: Fundamentals and Frontiers](youtu.be/8tKgHh83m78). A youtube talk summarizing some things I learned about (+ contributed to in) scaling law research 2024-25.
 * I sometimes make short videos summarising research papers I find interesting, e.g. [a robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8), or [explaining how AlphaCode works](https://youtu.be/YjsoN5aJChA)  
 * I used MusicGen and other AI tools to produce [endless lofi music](https://youtu.be/zksy94xazUI?si=LNwRGXxgBjtTfdlc) -- explanation tweet [here](https://twitter.com/Tea_Pearce/status/1670541269280366599).
 * I demonstrated how classifier-free guidance for diffusion works using a [minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST).
