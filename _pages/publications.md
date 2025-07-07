@@ -8,7 +8,7 @@ author_profile: true
 This page shares some of my favorite papers, grouped into themes. See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
 
 
-## Scaling ##
+## Scaling Laws ##
 
 ----
 __T Pearce__, J Song  
@@ -21,6 +21,25 @@ Scaling Laws for Pre-training Agents and World Models
 __ICML 2025__  
 [Paper](https://arxiv.org/abs/2411.04434)  
 
+
+## World Models ##
+
+----
+
+A Kanervisto, ..., __T Pearce__, ..., K Hofmann  
+World and Human Action Models towards gameplay ideation  
+__Nature 2024__   
+[Paper](https://www.nature.com/articles/s41586-025-08600-3)  
+
+E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
+Diffusion for World Modeling: Visual Details Matter in Atari  
+__NeurIPS 2024__   
+[Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
+
+C Zhang\*, _T Pearce\*_, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian   
+What Do Latent Action Models Actually Learn?  
+__ArXiv 2021__  
+[Paper](https://arxiv.org/abs/2506.15691)  
 
 ## Imitation Learning ##
 
@@ -39,26 +58,6 @@ T Luo, __T Pearce__, H Chen, J Chen, J Zhu
 C-GAIL: Stabilizing Generative Adversarial Imitation Learning with Control Theory  
 __NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2402.16349)  
-
-
-## World Models ##
-
-----
-
-A Kanervisto, ..., __T Pearce__, ..., K Hofmann  
-World and Human Action Models towards gameplay ideation  
-__Nature 2024__   
-[Paper](https://www.nature.com/articles/s41586-025-08600-3)  
-
-E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
-Diffusion for World Modeling: Visual Details Matter in Atari  
-__NeurIPS 2024__   
-[Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
-
-C Zhang\*, _T Pearce\*_, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian. 
-What Do Latent Action Models Actually Learn?  
-__ArXiv 2021__  
-[Paper](https://arxiv.org/abs/2506.15691)  
 
 
 ## Reinforcement Learning ##
