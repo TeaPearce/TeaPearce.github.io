@@ -18,7 +18,7 @@ __TMLR 2024__
 
 __T Pearce__\*, T Rashid\*, D Bignell, R Georgescu, S Devlin, K Hofmann  
 Scaling Laws for Pre-training Agents and World Models  
-__ArXiv 2024__  
+__ICML 2025__  
 [Paper](https://arxiv.org/abs/2411.04434)
 
 
@@ -44,10 +44,21 @@ __NeurIPS 2024__
 ## World Models ##
 
 ----
+
+A Kanervisto, ..., __T Pearce__, ..., K Hofmann  
+World and Human Action Models towards gameplay ideation  
+__Nature 2024__   
+[Paper](https://www.nature.com/articles/s41586-025-08600-3). 
+
 E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
 Diffusion for World Modeling: Visual Details Matter in Atari  
 __NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
+
+C Zhang\*, _T Pearce\*_, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian. 
+What Do Latent Action Models Actually Learn?  
+__ArXiv 2021__  
+[Paper](https://arxiv.org/abs/2506.15691)  
 
 
 ## Reinforcement Learning ##
