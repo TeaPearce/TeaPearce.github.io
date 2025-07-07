@@ -19,7 +19,7 @@ __TMLR 2024__
 __T Pearce__\*, T Rashid\*, D Bignell, R Georgescu, S Devlin, K Hofmann  
 Scaling Laws for Pre-training Agents and World Models  
 __ICML 2025__  
-[Paper](https://arxiv.org/abs/2411.04434)
+[Paper](https://arxiv.org/abs/2411.04434)  
 
 
 ## Imitation Learning ##
@@ -48,7 +48,7 @@ __NeurIPS 2024__
 A Kanervisto, ..., __T Pearce__, ..., K Hofmann  
 World and Human Action Models towards gameplay ideation  
 __Nature 2024__   
-[Paper](https://www.nature.com/articles/s41586-025-08600-3). 
+[Paper](https://www.nature.com/articles/s41586-025-08600-3)  
 
 E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
 Diffusion for World Modeling: Visual Details Matter in Atari  
