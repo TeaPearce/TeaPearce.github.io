@@ -20,7 +20,7 @@ __Previous.__ I completed my PhD at the [University of Cambridge](https://www.if
 <!-- My research aims to build and understand AI systems that are scalable, robust and human-like. My philosophy incorporates several elements.
 1) I adopt a probabilistic view of neural networks to help understand today's algorithms and design those of tomorrow. 2) I believe that the agent-environment framework, with sequential decisions and interactive learning, is the correct setting to be studying to make long-term progress in AI. 3) My research places equal weighting on theory and empirics. -->
 
-__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, message me on Twitter. ~~reach me via email at $x$@microsoft.com, where, $x=\text{--}$~~. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
+__Get in Touch.__ If you'd like to chat about research, collaborating together, or other opportunities, message me on Twitter. reach me via email at $x$@microsoft.com, where, $x=\text{timpearce}$. I'm more active on Twitter than here, so for up-to-date news, [follow me](https://twitter.com/Tea_Pearce).
 
 <!-- __Outreach.__ I set aside one hour each week to support underrepresented groups doing AI research (in any sense; age, finances, gender, nationality, race  etc). I'm happy to provide project advice, research talks, career chats, adhoc teaching... or anything else that is helpful. Please fill in [this contact form](https://forms.gle/AKBTwUPLxfnNmsYZ6) if you'd like to chat ☺️. -->
 
@@ -29,6 +29,9 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## News ##
 
+- July 2025. Heading to Vancouver to present our ICML paper [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
+- July 2025. Joining the MSR NYC office. 🗽
+- June 2025. New preprint investigating Genie-style action models [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691).
 - March 2025. Taking a short sabbatical of sorts. See y'all later ☀️
 - March 2025. [Neural scaling Laws: Fundamentals and Frontiers](youtu.be/8tKgHh83m78). A talk summarizing some things I've learned about (+ contributed to in) scaling law research over the past ~1 year.
 - November 2024. New preprint -- [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
