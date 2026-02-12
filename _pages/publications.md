@@ -29,8 +29,8 @@ __NeurIPS 2025__
 
 J Guo, Y Ye, T He, H Wu, Y Jiang, __T Pearce__, J Bian  
 Mineworld: A Real-Time and Open-Source Interactive World Model on Minecraft  
-__ArXiv 2025__
-
+__ArXiv 2025__  
+[Paper](https://arxiv.org/abs/2504.08388)  
 
 ## Imitation Learning ##
 
