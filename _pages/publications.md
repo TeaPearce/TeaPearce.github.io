@@ -8,20 +8,6 @@ author_profile: true
 This page shares some of my favorite papers, grouped into themes. See my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=09k1kdQAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date, comprehensive list.  
 
 
-## Scaling Laws ##
-
-----
-__T Pearce__, J Song  
-Reconciling Kaplan and Chinchilla Scaling Laws  
-__TMLR 2024__  
-[Paper](https://arxiv.org/abs/2406.12907) | [Code](https://github.com/TeaPearce/Reconciling_Kaplan_Chinchilla_Scaling_Laws)
-
-__T Pearce__\*, T Rashid\*, D Bignell, R Georgescu, S Devlin, K Hofmann  
-Scaling Laws for Pre-training Agents and World Models  
-__ICML 2025__  
-[Paper](https://arxiv.org/abs/2411.04434)  
-
-
 ## World Models ##
 
 ----
@@ -36,10 +22,15 @@ Diffusion for World Modeling: Visual Details Matter in Atari
 __NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
 
-C Zhang\*, _T Pearce\*_, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian   
+C Zhang\*, __T Pearce\*__, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian   
 What Do Latent Action Models Actually Learn?  
-__ArXiv 2021__  
+__NeurIPS 2025__  
 [Paper](https://arxiv.org/abs/2506.15691)  
+
+J Guo, Y Ye, T He, H Wu, Y Jiang, __T Pearce__, J Bian
+Mineworld: A Real-Time and Open-Source Interactive World Model on Minecraft
+__ArXiv 2025__
+
 
 ## Imitation Learning ##
 
@@ -58,6 +49,20 @@ T Luo, __T Pearce__, H Chen, J Chen, J Zhu
 C-GAIL: Stabilizing Generative Adversarial Imitation Learning with Control Theory  
 __NeurIPS 2024__   
 [Paper](https://arxiv.org/abs/2402.16349)  
+
+
+## Scaling Laws ##
+
+----
+__T Pearce__, J Song  
+Reconciling Kaplan and Chinchilla Scaling Laws  
+__TMLR 2024__  
+[Paper](https://arxiv.org/abs/2406.12907) | [Code](https://github.com/TeaPearce/Reconciling_Kaplan_Chinchilla_Scaling_Laws)
+
+__T Pearce__\*, T Rashid\*, D Bignell, R Georgescu, S Devlin, K Hofmann  
+Scaling Laws for Pre-training Agents and World Models  
+__ICML 2025__  
+[Paper](https://arxiv.org/abs/2411.04434)  
 
 
 ## Reinforcement Learning ##
