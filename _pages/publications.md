@@ -27,8 +27,8 @@ What Do Latent Action Models Actually Learn?
 __NeurIPS 2025__  
 [Paper](https://arxiv.org/abs/2506.15691)  
 
-J Guo, Y Ye, T He, H Wu, Y Jiang, __T Pearce__, J Bian
-Mineworld: A Real-Time and Open-Source Interactive World Model on Minecraft
+J Guo, Y Ye, T He, H Wu, Y Jiang, __T Pearce__, J Bian  
+Mineworld: A Real-Time and Open-Source Interactive World Model on Minecraft  
 __ArXiv 2025__
 
 
