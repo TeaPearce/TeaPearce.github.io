@@ -20,7 +20,7 @@ __Nature 2024__
 E Alonso\*, A Jelley\*, V Micheli, A Kanervisto, A Storkey, __T Pearce\*__, F Fleuret\*  
 Diffusion for World Modeling: Visual Details Matter in Atari  
 __NeurIPS 2024__   
-[Paper](https://arxiv.org/abs/2405.12399) [Code](https://github.com/eloialonso/diamond)  
+[Paper](https://arxiv.org/abs/2405.12399) | [Code](https://github.com/eloialonso/diamond)  
 
 C Zhang\*, __T Pearce\*__, P Zhang, K Wang, X Chen, W Shen, L Zhao, J Bian   
 What Do Latent Action Models Actually Learn?  
