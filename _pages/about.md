@@ -12,7 +12,7 @@ redirect_from:
 __About.__ I'm a researcher with wide-ranging interest across AI and machine learning. I am based at Microsoft Research working with the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) (Cambridge), [Machine Learning Group](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) (Beijing), & [AI Frontiers](https://www.microsoft.com/en-us/research/lab/ai-frontiers/) (NYC).
 
 __Research.__
-I have deep expertise in _scaling laws_, _embodied AI_ (_imitation learning_ & _world modeling_), _generative modeling_, and _uncertainty estimation_.
+I have deep expertise in _embodied AI_ (_imitation learning_ & _world modeling_), _scaling laws_, _generative modeling_, and _uncertainty estimation_.
 My PhD centered around Bayesian deep learning (e.g. [ensembling](https://arxiv.org/abs/1810.05546) and [priors](https://arxiv.org/abs/1905.06076)), I then moved focus to applying ideas from generative modeling to embodied settings (e.g. [using diffusion to imitate humans](https://arxiv.org/abs/2301.10677) and [game environments](https://arxiv.org/abs/2405.12399)). My [work (and dataset)](https://arxiv.org/abs/2104.04258) on behavioral cloning for video games has been [widely shared](https://youtu.be/UvoyMGxN89Y?si=4vIkctZ3EijukYJj). I have helped understand the science of scaling in AI, such as [reconciling conflicting scaling law coefficients](https://arxiv.org/abs/2406.12907) and the role of [pre-training in embodied AI](https://arxiv.org/abs/2411.04434). 
 
 __Previous.__ I completed my PhD at the [University of Cambridge](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), spending time at the [Alan Turing Institute](https://www.turing.ac.uk/), and did a postdoc at [Tsinghua University](https://ml.cs.tsinghua.edu.cn/). In my previous life I qualified as a Chartered Accountant with Ernst & Young (EY), building forecasting and valuation models for clients across London finance. I've also studied 中文 to a passable level.
@@ -29,6 +29,8 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## News ##
 
+- December 2026. Thanks to Imperial College London ICARL for hosting me for [a talk](https://www.youtube.com/watch?v=KeGpkv38lV0.).
+- December 2026. Presenting [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691)
 - July 2025. Heading to Vancouver to present our ICML paper [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
 - July 2025. Joining the MSR NYC office. 🗽
 - June 2025. New preprint investigating Genie-style action models [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691).
