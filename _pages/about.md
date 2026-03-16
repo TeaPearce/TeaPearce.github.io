@@ -29,8 +29,8 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 
 ## News ##
 
-- December 2026. Thanks to Imperial College London ICARL for hosting me for [a talk](https://www.youtube.com/watch?v=KeGpkv38lV0.).
-- December 2026. Presenting [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691)
+- December 2025. Thanks to Imperial College London ICARL for hosting me for [a talk](https://www.youtube.com/watch?v=KeGpkv38lV0.).
+- December 2025. Presenting [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691)
 - July 2025. Heading to Vancouver to present our ICML paper [Scaling Laws for Pre-training Agents and World Models](https://arxiv.org/abs/2411.04434)!
 - July 2025. Joining the MSR NYC office. 🗽
 - June 2025. New preprint investigating Genie-style action models [What Do Latent Action Models Actually Learn?](https://arxiv.org/abs/2506.15691).
