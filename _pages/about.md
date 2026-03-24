@@ -62,4 +62,4 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 * I sometimes make short videos summarising research papers I find interesting, e.g. [a robotic system that plays table tennis with RL](https://youtu.be/ktkbxWcYiF8), or [explaining how AlphaCode works](https://youtu.be/YjsoN5aJChA)  
 * I used MusicGen and other AI tools to produce [endless lofi music](https://youtu.be/zksy94xazUI?si=LNwRGXxgBjtTfdlc) -- explanation tweet [here](https://twitter.com/Tea_Pearce/status/1670541269280366599).
 * I demonstrated how classifier-free guidance for diffusion works using a [minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST).
-
+* [A visualization tool](https://teapearce.github.io/character_explorer_2025.html) to help understand the updated standard Mandarin test (HSK 3.0)
