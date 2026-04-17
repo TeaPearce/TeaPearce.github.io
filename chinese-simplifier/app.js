@@ -463,3 +463,287 @@ analyzeBtn.addEventListener("click", () => {
 
   renderLegend();
 });
+
+// ══════════════════════════════════════════
+// Text to Speech (Piper TTS + Sherpa-ONNX Matcha)
+// ══════════════════════════════════════════
+
+const ttsEngineToggle = document.getElementById("tts-engine-toggle");
+const ttsVoiceToggle = document.getElementById("tts-voice-toggle");
+const ttsPiperVoices = document.getElementById("tts-piper-voices");
+const ttsStatus = document.getElementById("tts-status");
+const ttsInput = document.getElementById("tts-input");
+const ttsSpeakBtn = document.getElementById("tts-speak-btn");
+const ttsPauseBtn = document.getElementById("tts-pause-btn");
+const ttsStopBtn = document.getElementById("tts-stop-btn");
+
+let ttsEngine = "sherpa-baker"; // "piper", "sherpa", or "sherpa-baker"
+let ttsModule = null; // piper module
+let ttsVoice = "zh_CN-huayan-medium";
+let ttsAudio = null;
+let ttsLoading = false;
+
+// Sherpa state — one worker per model build
+const sherpaWorkers = {}; // engine key → { worker, ready, loading }
+let sherpaAudioCtx = null;
+let sherpaSource = null;
+let sherpaPaused = false;
+let sherpaBuffer = null;
+let sherpaPauseOffset = 0;
+let sherpaStartTime = 0;
+
+const SHERPA_WORKER_PATHS = {
+  sherpa: "lib/sherpa-tts/sherpa-onnx-tts.worker.js",
+  "sherpa-baker": "lib/sherpa-tts-baker/sherpa-onnx-tts.worker.js",
+};
+
+// Engine toggle
+ttsEngineToggle.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-engine]");
+  if (!btn) return;
+  ttsEngineToggle.querySelectorAll(".toggle-btn").forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  ttsEngine = btn.dataset.engine;
+  ttsPiperVoices.style.display = ttsEngine === "piper" ? "" : "none";
+  if (ttsEngine !== "piper") initSherpa(ttsEngine);
+});
+
+// Piper voice toggle
+ttsVoiceToggle.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-voice]");
+  if (!btn) return;
+  ttsVoiceToggle.querySelectorAll(".toggle-btn").forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  ttsVoice = btn.dataset.voice;
+});
+
+// ── Piper TTS ──
+async function ensurePiper() {
+  if (ttsModule) return;
+  if (ttsLoading) return;
+  ttsLoading = true;
+  ttsStatus.textContent = "Loading Piper TTS library...";
+  try {
+    ttsModule = await import("./lib/piper/piper-tts-web.js");
+    ttsStatus.textContent = "Piper TTS ready. First speak will download voice model.";
+  } catch (err) {
+    console.error("Failed to load Piper TTS:", err);
+    ttsStatus.textContent = "Failed to load Piper TTS: " + err.message;
+    ttsLoading = false;
+  }
+}
+
+// ── Sherpa-ONNX Matcha TTS ──
+function initSherpa(engineKey) {
+  if (sherpaWorkers[engineKey]) return;
+  const workerPath = SHERPA_WORKER_PATHS[engineKey];
+  if (!workerPath) return;
+
+  sherpaWorkers[engineKey] = { worker: null, ready: false, loading: true };
+  ttsStatus.textContent = "Loading Matcha TTS model, please wait...";
+
+  const w = new Worker(workerPath);
+  sherpaWorkers[engineKey].worker = w;
+
+  w.onmessage = (e) => {
+    // Only update status if this engine is still selected
+    const isActive = ttsEngine === engineKey;
+
+    if (e.data.type === "sherpa-onnx-tts-progress") {
+      if (!isActive) return;
+      const status = e.data.status;
+      const dlMatch = status.match(/Downloading data... \((\d+)\/(\d+)\)/);
+      if (dlMatch) {
+        const downloaded = Number(dlMatch[1]);
+        const total = Number(dlMatch[2]);
+        const pct = total === 0 ? 0 : ((downloaded / total) * 100).toFixed(1);
+        const dlMB = (downloaded / 1024 / 1024).toFixed(1);
+        const totalMB = (total / 1024 / 1024).toFixed(1);
+        ttsStatus.textContent = `Downloading model... ${pct}% (${dlMB}/${totalMB} MB)`;
+      } else if (status === "Running...") {
+        ttsStatus.textContent = "Model downloaded. Initializing Matcha TTS...";
+      } else {
+        ttsStatus.textContent = status;
+      }
+      return;
+    }
+    if (e.data.type === "sherpa-onnx-tts-ready") {
+      sherpaWorkers[engineKey].ready = true;
+      sherpaWorkers[engineKey].loading = false;
+      if (isActive) ttsStatus.textContent = "Matcha TTS ready.";
+      return;
+    }
+    if (e.data.type === "error") {
+      if (isActive) {
+        ttsStatus.textContent = "Matcha TTS error: " + e.data.message;
+        ttsSpeakBtn.disabled = false;
+        ttsSpeakBtn.textContent = "🔊 Speak";
+      }
+      return;
+    }
+    if (e.data.type === "sherpa-onnx-tts-result") {
+      onSherpaAudio(e.data.samples, e.data.sampleRate);
+      return;
+    }
+  };
+}
+
+function onSherpaAudio(samples, sampleRate) {
+  if (!sherpaAudioCtx) {
+    sherpaAudioCtx = new AudioContext({ sampleRate });
+  }
+  sherpaBuffer = sherpaAudioCtx.createBuffer(1, samples.length, sampleRate);
+  sherpaBuffer.getChannelData(0).set(samples);
+
+  sherpaPauseOffset = 0;
+  sherpaPaused = false;
+  playSherpaBuffer();
+
+  ttsSpeakBtn.disabled = false;
+  ttsSpeakBtn.textContent = "🔊 Speak";
+  ttsPauseBtn.style.display = "";
+  ttsStopBtn.style.display = "";
+  ttsPauseBtn.textContent = "⏸ Pause";
+  ttsStatus.textContent = "Playing (Matcha TTS)...";
+}
+
+function playSherpaBuffer() {
+  if (!sherpaBuffer || !sherpaAudioCtx) return;
+  sherpaSource = sherpaAudioCtx.createBufferSource();
+  sherpaSource.buffer = sherpaBuffer;
+  sherpaSource.connect(sherpaAudioCtx.destination);
+  sherpaSource.onended = () => {
+    if (!sherpaPaused) {
+      ttsPauseBtn.style.display = "none";
+      ttsStopBtn.style.display = "none";
+      ttsStatus.textContent = "Playback finished.";
+    }
+  };
+  sherpaStartTime = sherpaAudioCtx.currentTime;
+  sherpaSource.start(0, sherpaPauseOffset);
+}
+
+// ── Unified handlers ──
+
+// Pre-load default TTS engine on page load
+initSherpa("sherpa-baker");
+
+ttsSpeakBtn.addEventListener("click", async () => {
+  const text = ttsInput.value.trim();
+  if (!text) return;
+
+  // Stop any current playback
+  stopAllTTS();
+
+  if (ttsEngine === "piper") {
+    await ensurePiper();
+    if (!ttsModule) return;
+
+    ttsSpeakBtn.disabled = true;
+    ttsSpeakBtn.textContent = "⏳ Generating...";
+    ttsStatus.textContent = `Generating speech with ${ttsVoice}...`;
+
+    try {
+      const wav = await ttsModule.predict(
+        { text, voiceId: ttsVoice },
+        (progress) => {
+          if (progress.total) {
+            const pct = Math.round((progress.loaded * 100) / progress.total);
+            ttsStatus.textContent = `Downloading voice model... ${pct}%`;
+          }
+        }
+      );
+
+      ttsAudio = new Audio();
+      ttsAudio.src = URL.createObjectURL(wav);
+      ttsAudio.addEventListener("ended", () => {
+        ttsPauseBtn.style.display = "none";
+        ttsStopBtn.style.display = "none";
+        ttsSpeakBtn.textContent = "🔊 Speak";
+        ttsStatus.textContent = "Playback finished.";
+      });
+
+      ttsPauseBtn.style.display = "";
+      ttsStopBtn.style.display = "";
+      ttsPauseBtn.textContent = "⏸ Pause";
+      ttsStatus.textContent = "Playing (Piper)...";
+      ttsAudio.play();
+    } catch (err) {
+      console.error("Piper TTS error:", err);
+      ttsStatus.textContent = "TTS error: " + err.message;
+    } finally {
+      ttsSpeakBtn.disabled = false;
+      ttsSpeakBtn.textContent = "🔊 Speak";
+    }
+  } else {
+    // Sherpa Matcha
+    const sw = sherpaWorkers[ttsEngine];
+    if (!sw || !sw.ready) {
+      initSherpa(ttsEngine);
+      ttsStatus.textContent = "Matcha TTS still loading, please wait...";
+      return;
+    }
+    ttsSpeakBtn.disabled = true;
+    ttsSpeakBtn.textContent = "⏳ Generating...";
+    ttsStatus.textContent = "Generating speech with Matcha TTS...";
+    sw.worker.postMessage({
+      text,
+      sid: 0,
+      speed: 1.0,
+      type: "generate",
+    });
+  }
+});
+
+ttsPauseBtn.addEventListener("click", () => {
+  if (ttsEngine === "piper") {
+    if (!ttsAudio) return;
+    if (ttsAudio.paused) {
+      ttsAudio.play();
+      ttsPauseBtn.textContent = "⏸ Pause";
+      ttsStatus.textContent = "Playing (Piper)...";
+    } else {
+      ttsAudio.pause();
+      ttsPauseBtn.textContent = "▶ Resume";
+      ttsStatus.textContent = "Paused.";
+    }
+  } else {
+    if (!sherpaSource || !sherpaAudioCtx) return;
+    if (!sherpaPaused) {
+      sherpaPauseOffset += sherpaAudioCtx.currentTime - sherpaStartTime;
+      sherpaSource.onended = null;
+      sherpaSource.stop();
+      sherpaPaused = true;
+      ttsPauseBtn.textContent = "▶ Resume";
+      ttsStatus.textContent = "Paused.";
+    } else {
+      sherpaPaused = false;
+      playSherpaBuffer();
+      ttsPauseBtn.textContent = "⏸ Pause";
+      ttsStatus.textContent = "Playing (Matcha TTS)...";
+    }
+  }
+});
+
+function stopAllTTS() {
+  // Stop Piper
+  if (ttsAudio) {
+    ttsAudio.pause();
+    ttsAudio = null;
+  }
+  // Stop Sherpa
+  if (sherpaSource) {
+    try { sherpaSource.onended = null; sherpaSource.stop(); } catch (_) {}
+    sherpaSource = null;
+  }
+  sherpaBuffer = null;
+  sherpaPaused = false;
+  sherpaPauseOffset = 0;
+  ttsPauseBtn.style.display = "none";
+  ttsStopBtn.style.display = "none";
+}
+
+ttsStopBtn.addEventListener("click", () => {
+  stopAllTTS();
+  ttsStatus.textContent = "Stopped.";
+});

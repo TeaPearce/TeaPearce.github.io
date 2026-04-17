@@ -1,0 +1,2 @@
+chinese-simplifier/lib/sherpa-tts/*.data filter=lfs diff=lfs merge=lfs -text
+chinese-simplifier/lib/sherpa-tts-baker/*.data filter=lfs diff=lfs merge=lfs -text

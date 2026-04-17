@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chinese Text Simplifier</title>
   <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "onnxruntime-web": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/esm/ort.min.js"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Loading overlay shown while ESM module loads -->
@@ -117,6 +124,37 @@
       <div class="analyzer-right" id="word-detail-panel">
         <div class="word-detail-placeholder">Hover over a word to see details</div>
       </div>
+    </div>
+
+    <!-- Text to Speech -->
+    <hr class="divider">
+    <h2 class="section-title">Text to Speech</h2>
+    <div class="section">
+      <label class="section-label">Engine</label>
+      <div class="toggle-group" id="tts-engine-toggle">
+        <button class="toggle-btn" data-engine="sherpa" data-worker="lib/sherpa-tts/sherpa-onnx-tts.worker.js">Matcha zh-en <span class="badge">~155MB</span></button>
+        <button class="toggle-btn active" data-engine="sherpa-baker" data-worker="lib/sherpa-tts-baker/sherpa-onnx-tts.worker.js">Matcha zh-baker <span class="badge">~131MB</span></button>
+        <button class="toggle-btn" data-engine="piper">Piper <span class="badge">Lighter · auto-download</span></button>
+      </div>
+    </div>
+    <div class="section" id="tts-piper-voices" style="display:none;">
+      <label class="section-label">Voice</label>
+      <div class="toggle-group" id="tts-voice-toggle">
+        <button class="toggle-btn active" data-voice="zh_CN-huayan-medium">Huayan Medium <span class="badge">~75MB</span></button>
+        <button class="toggle-btn" data-voice="zh_CN-huayan-x_low">Huayan X-Low <span class="badge">~15MB</span></button>
+      </div>
+    </div>
+    <div class="section">
+      <div id="tts-status" class="status-bar">TTS not loaded</div>
+    </div>
+    <div class="section">
+      <label class="section-label">Text to Speak</label>
+      <textarea id="tts-input" placeholder="Enter Chinese text to read aloud..." rows="4"></textarea>
+    </div>
+    <div class="actions">
+      <button id="tts-speak-btn" class="btn btn-primary">🔊 Speak</button>
+      <button id="tts-pause-btn" class="btn btn-secondary" style="display:none;">⏸ Pause</button>
+      <button id="tts-stop-btn" class="btn btn-danger" style="display:none;">⏹ Stop</button>
     </div>
 
     <!-- WebGPU warning -->
