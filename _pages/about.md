@@ -63,3 +63,4 @@ __Get in Touch.__ If you'd like to chat about research, collaborating together, 
 * I used MusicGen and other AI tools to produce [endless lofi music](https://youtu.be/zksy94xazUI?si=LNwRGXxgBjtTfdlc) -- explanation tweet [here](https://twitter.com/Tea_Pearce/status/1670541269280366599).
 * I demonstrated how classifier-free guidance for diffusion works using a [minimal repo](https://github.com/TeaPearce/Conditional_Diffusion_MNIST).
 * [A visualization tool](https://teapearce.github.io/character_explorer_2025.html) to help understand the updated standard Mandarin test (HSK 3.0)
+* [Chinese text simplifier](https://teapearce.github.io/chinese-simplifier/) using an in-browser LLM to rewrite text at your HSK level, with word-level HSK analysis

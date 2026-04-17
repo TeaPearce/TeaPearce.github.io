@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinese Text Simplifier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading overlay shown while ESM module loads -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <p>Loading application...</p>
+  </div>
+
+  <div class="container" id="app" style="display:none;">
+    <h1>Chinese Text Simplifier</h1>
+    <p class="subtitle">Simplify Chinese text to match your HSK level using an in-browser LLM</p>
+
+    <!-- Model Selection -->
+    <div class="section">
+      <label class="section-label">Model</label>
+      <div class="toggle-group" id="model-toggle">
+        <button class="toggle-btn active" data-model="Qwen3-8B-q4f16_1-MLC">
+          Qwen3 8B <span class="badge">Best quality · ~5GB</span>
+        </button>
+        <button class="toggle-btn" data-model="Qwen3-4B-q4f16_1-MLC">
+          Qwen3 4B <span class="badge">Faster · ~3GB</span>
+        </button>
+        <button class="toggle-btn" data-model="Qwen3-0.6B-q4f16_1-MLC">
+          Qwen3 0.6B <span class="badge">Testing · ~0.5GB</span>
+        </button>
+      </div>
+      <div id="model-status" class="status-bar">Model not loaded</div>
+    </div>
+
+    <!-- HSK Level -->
+    <div class="section">
+      <label class="section-label">Target HSK Level</label>
+      <div class="hsk-controls">
+        <div class="toggle-group" id="hsk-system-toggle">
+          <button class="toggle-btn active" data-system="hsk3">HSK 3.0 (2025)</button>
+          <button class="toggle-btn" data-system="hsk2">HSK 2.0</button>
+        </div>
+        <div class="toggle-group" id="hsk-level-toggle">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Options -->
+    <div class="section">
+      <label class="section-label">Options</label>
+      <div class="options-row">
+        <div class="toggle-group">
+          <button class="toggle-btn" id="thinking-toggle" data-enabled="false">Thinking: Off</button>
+        </div>
+        <div class="slider-group">
+          <label for="temp-slider">Temperature: <span id="temp-value">0.3</span></label>
+          <input type="range" id="temp-slider" min="0" max="1.5" step="0.1" value="0.3">
+        </div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <div class="section">
+      <label class="section-label">Input Text</label>
+      <textarea id="input-text" placeholder="Paste Chinese text here..." rows="6"></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button id="load-model-btn" class="btn btn-secondary">Load Model</button>
+      <button id="simplify-btn" class="btn btn-primary" disabled>Simplify</button>
+      <button id="stop-btn" class="btn btn-danger" style="display:none;">Stop</button>
+    </div>
+
+    <!-- Output -->
+    <div class="section" id="output-section" style="display:none;">
+      <label class="section-label">Simplified Text</label>
+      <div id="output-text" class="output-box"></div>
+    </div>
+
+    <!-- Word Analyzer -->
+    <hr class="divider">
+    <h2 class="section-title">Word Analyzer</h2>
+    <div class="section">
+      <label class="section-label">HSK Dictionary</label>
+      <div class="toggle-group" id="analyzer-hsk-toggle">
+        <button class="toggle-btn active" data-system="hsk3">HSK 3.0 (2025)</button>
+        <button class="toggle-btn" data-system="hsk2">HSK 2.0</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <label class="section-label">Segmenter</label>
+      <div class="toggle-group" id="segmenter-toggle">
+        <button class="toggle-btn active" data-segmenter="jieba">jieba <span class="badge">Better accuracy</span></button>
+        <button class="toggle-btn" data-segmenter="intl">Intl.Segmenter <span class="badge">Built-in</span></button>
+      </div>
+      <div id="segmenter-status" class="status-bar">Loading jieba...</div>
+    </div>
+
+    <div class="analyzer-layout">
+      <div class="analyzer-left">
+        <div class="section">
+          <label class="section-label">Text to Analyze</label>
+          <textarea id="analyzer-input" placeholder="Paste Chinese text here to see word-level HSK breakdown..." rows="4"></textarea>
+        </div>
+        <button id="analyze-btn" class="btn btn-primary">Analyze</button>
+        <div class="section" id="analyzer-output-section" style="display:none;">
+          <label class="section-label">Color-coded by HSK Level</label>
+          <div id="analyzer-output" class="output-box analyzer-words"></div>
+          <div class="hsk-legend" id="hsk-legend"></div>
+        </div>
+      </div>
+      <div class="analyzer-right" id="word-detail-panel">
+        <div class="word-detail-placeholder">Hover over a word to see details</div>
+      </div>
+    </div>
+
+    <!-- WebGPU warning -->
+    <div id="webgpu-warning" class="warning-box" style="display:none;">
+      ⚠️ WebGPU is not available in this browser. The LLM requires WebGPU to run.
+      Try Chrome or Edge on a machine with GPU access.
+    </div>
+  </div>
+
+  <script>
+    // Fallback: if module takes too long or errors, show a message
+    setTimeout(() => {
+      const overlay = document.getElementById("loading-overlay");
+      if (overlay && overlay.style.display !== "none") {
+        overlay.querySelector("p").textContent = "Loading WebLLM library (4MB, first load may be slow)...";
+      }
+    }, 3000);
+    // Catch module errors
+    window.addEventListener("error", (e) => {
+      console.error("Global error:", e);
+      const overlay = document.getElementById("loading-overlay");
+      if (overlay) {
+        overlay.querySelector("p").textContent = "Error: " + (e.message || "Unknown error loading module");
+        overlay.querySelector("p").style.color = "#ef4444";
+        const spinner = overlay.querySelector(".loading-spinner");
+        if (spinner) spinner.style.display = "none";
+      }
+    });
+    window.addEventListener("unhandledrejection", (e) => {
+      console.error("Unhandled rejection:", e.reason);
+      const overlay = document.getElementById("loading-overlay");
+      if (overlay) {
+        overlay.querySelector("p").textContent = "Error: " + (e.reason?.message || e.reason || "Module load failed");
+        overlay.querySelector("p").style.color = "#ef4444";
+        const spinner = overlay.querySelector(".loading-spinner");
+        if (spinner) spinner.style.display = "none";
+      }
+    });
+  </script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
